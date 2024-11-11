@@ -37,43 +37,43 @@ function Patterns() {
                 </p>
                 </div>
               <div className="col-lg-12">
-                  <img className="design-system-img" src={dsone} alt="design system image part 1" />
+                  <img className="design-system-img" src={dsone} alt="design system part 1" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dstwo} alt="design system image part 2" />
+                <img className="design-system-img" src={dstwo} alt="design system part 2" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsthree} alt="design system image part 3" />
+                <img className="design-system-img" src={dsthree} alt="design system part 3" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsfour} alt="design system image part 4" />
+                <img className="design-system-img" src={dsfour} alt="design system part 4" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsfive} alt="design system image part 5" />
+                <img className="design-system-img" src={dsfive} alt="design system part 5" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dssix} alt="design system image part 6" />
+                <img className="design-system-img" src={dssix} alt="design system part 6" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsseven} alt="design system image part 7" />
+                <img className="design-system-img" src={dsseven} alt="design system part 7" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dseight} alt="design system image part 8" />
+                <img className="design-system-img" src={dseight} alt="design system part 8" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsnine} alt="design system image part 9" />
+                <img className="design-system-img" src={dsnine} alt="design system part 9" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsten} alt="design system image part 10" />
+                <img className="design-system-img" src={dsten} alt="design system part 10" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dseleven} alt="design system image part 11" />
+                <img className="design-system-img" src={dseleven} alt="design system part 11" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dstwelve} alt="design system image part 12" />
+                <img className="design-system-img" src={dstwelve} alt="design system part 12" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsthirteen} alt="design system image part 13" />
+                <img className="design-system-img" src={dsthirteen} alt="design system part 13" />
               </div>
 
             </div>
