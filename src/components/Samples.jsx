@@ -40,6 +40,8 @@ import lansingone from './lansing-promise-comp-3.png'
 import lansingtwo from './lansing-promise-comp-2.png'
 import lansingthree from './lansing-promise-comp.png'
 import videoconf from './remote-int.pdf'
+import dsone from './ds1.png';
+
 
 function Samples() {
   return (
@@ -75,6 +77,11 @@ function Samples() {
                     <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf">UX/UI Random Sketches</a></li>
                   </ul>
                 </div>
+
+
+
+
+
 
 
                 <div className="col-lg-6 p-4">
@@ -301,8 +308,6 @@ function Samples() {
                 <a href="https://dribbble.com/shots/21584003-Seems-Authentic-I-mean-right" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artgenuine} alt="artwork" /></a>
               </div>
             </div>
-
-
 
 
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">

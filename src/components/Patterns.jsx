@@ -37,43 +37,43 @@ function Patterns() {
                 </p>
                 </div>
               <div className="col-lg-12">
-                  <img className="design-system-img" src={dsone} alt="vinyl artwork" />
+                  <img className="design-system-img" src={dsone} alt="design system image" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dstwo} alt="vinyl artwork" />
+                <img className="design-system-img" src={dstwo} alt="design system image" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsthree} alt="vinyl artwork" />
+                <img className="design-system-img" src={dsthree} alt="design system image" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsfour} alt="vinyl artwork" />
+                <img className="design-system-img" src={dsfour} alt="design system image" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsfive} alt="vinyl artwork" />
+                <img className="design-system-img" src={dsfive} alt="design system image" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dssix} alt="vinyl artwork" />
+                <img className="design-system-img" src={dssix} alt="design system image" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsseven} alt="vinyl artwork" />
+                <img className="design-system-img" src={dsseven} alt="design system image" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dseight} alt="vinyl artwork" />
+                <img className="design-system-img" src={dseight} alt="design system image" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsnine} alt="vinyl artwork" />
+                <img className="design-system-img" src={dsnine} alt="design system image" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsten} alt="vinyl artwork" />
+                <img className="design-system-img" src={dsten} alt="design system image" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dseleven} alt="vinyl artwork" />
+                <img className="design-system-img" src={dseleven} alt="design system image" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dstwelve} alt="vinyl artwork" />
+                <img className="design-system-img" src={dstwelve} alt="design system image" />
               </div>
               <div className="col-lg-12">
-                <img className="design-system-img" src={dsthirteen} alt="vinyl artwork" />
+                <img className="design-system-img" src={dsthirteen} alt="design system image" />
               </div>
 
             </div>
