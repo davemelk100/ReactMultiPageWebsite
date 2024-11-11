@@ -73,6 +73,13 @@ h3 {
   font-family: 'Rokkitt', serif;
   letter-spacing: -1px;
 }
+
+h5,
+.h5 {
+  font-size: 26px;
+}
+
+
 p, li {
   font-weight: 300;
 }
@@ -3549,4 +3556,8 @@ app-tooltip {
 
 .shadow-lg {
   min-height: 100vh;
+}
+
+small {
+  font-size: 12px;
 }

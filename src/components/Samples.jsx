@@ -1,5 +1,6 @@
 import React from "react";
 import Person from './Person'
+import comptwo from './comptwo.png'
 import compthree from './compthree.png';
 import compfour from './compfour.png';
 import compfive from './compfive.png';
@@ -40,7 +41,8 @@ import lansingone from './lansing-promise-comp-3.png'
 import lansingtwo from './lansing-promise-comp-2.png'
 import lansingthree from './lansing-promise-comp.png'
 import videoconf from './remote-int.pdf'
-import dsone from './ds1.png';
+import artprizesearch from './artprizesearch.png';
+import artprizevenue from './artprizevenue.png';
 
 
 function Samples() {
@@ -80,18 +82,36 @@ function Samples() {
 
 
 
-
-
-
-
-                <div className="col-lg-6 p-4">
+{/* 
+                <div className="col-lg-6 mt-5 d-flex flex-column">
+                <small className="mb-0">project</small>
+                <p className="h5">CONFIDENTIAL</p><br />
+                <small className="mb-0">role</small>
+                <p className="mb-2">UX/UI Developer</p><br />
+                <small className="mb-0">contributions</small>
+                <ul className="mb-5 pt-0 pb-4 py-0">
+                  <li className="mb-4">Built out resdesign concept for a customer service application</li>
+                  <li className="mb-4">Created the comps using a combination of HTML, CSS, TS, JS, and Figma</li>
+                </ul>
+              </div>
+             
+              <div className="col-lg-6 p-4">
                 <img className="grow sample-img" src={lansingone} alt="artwork" />
                 <img className="grow sample-img" src={lansingtwo} alt="artwork" />
                 <img className="grow sample-img" src={lansingthree} alt="artwork" />
-              </div>
-              <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
+              </div> */}
+
+
+
+
+
+
+
+
+
+              <div className="col-lg-6 mt-5 d-flex flex-column">
                 <small className="mb-0">project</small>
-                <p>Lansing Promise app</p><br />
+                <p className="h5">Lansing Promise app</p><br />
                 <small className="mb-0">role</small>
                 <p className="mb-2">UX/UI Consultant</p><br />
                 <small className="mb-0">contributions</small>
@@ -104,16 +124,17 @@ function Samples() {
                 </ul>
               </div>
              
-
-
-{/* 
               <div className="col-lg-6 p-4">
-                <img className="grow sample-img" src={artprizesearch} alt="artwork" />
-                <img className="grow sample-img" src={artprizevenue} alt="artwork" />
+                <img className="grow sample-img" src={lansingone} alt="artwork" />
+                <img className="grow sample-img" src={lansingtwo} alt="artwork" />
+                <img className="grow sample-img" src={lansingthree} alt="artwork" />
               </div>
-              <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
+
+ 
+
+              <div className="col-lg-6 mt-5 d-flex flex-column">
                 <small className="mb-0">project</small>
-                <a className="h5 font-weight-bold" href="https://www.artprize.org/">ArtPrize</a><br />
+                <p className="h5">ArtPrize</p><br />
                 <small className="mb-0">role</small>
                 <p className="mb-2">Senior Application Developer</p><br />
                 <small className="mb-0">contributions</small>
@@ -128,10 +149,16 @@ function Samples() {
                   <li className="mb-4">Created style and layout for admin pages, confirmation messages, and alerts</li>
                   <li className="mb-4">Maintained a design system including all controls and typography</li>
                 </ul>
-              </div> */}
-              <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
-                <small className="mb-0">project</small>
-                <a className="h5 font-weight-bold" href="https://www.mysmilecoverage.com/">Delta Dental of Michigan - Individual Shopping platform</a><br />
+              </div>
+
+              <div className="col-lg-6 p-4">
+                <img className="grow sample-img" src={artprizesearch} alt="artwork" />
+                <img className="grow sample-img" src={artprizevenue} alt="artwork" />
+              </div>
+
+              <div className="col-lg-6 p-4">
+                <small className="mb-2">project</small>
+                <p className="h5">Delta Dental of Michigan - Individual Shopping platform</p>
                 <small className="mb-0">role</small>
                 <p className="mb-2">Senior Application Developer</p><br />
                 <small className="mb-0">contributions</small>
@@ -150,13 +177,10 @@ function Samples() {
                 <img className="grow sample-img" src={deltaportal} alt="artwork" />
                 <img className="grow sample-img" src={renshopping} alt="artwork" />
               </div>
-              <div className="col-lg-6 mt-5">
-                <img className="grow sample-img" src={deltaportaltwo} alt="artwork" />
-                <img className="grow sample-img" src={renlogin} alt="artwork" />
-              </div>
-              <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
+          
+              <div className="col-lg-6 mt-5 d-flex flex-column">
                 <small className="mb-0">project</small>
-                <a className="h5 font-weight-bold" href="https://www.memberportal.com/">Delta Dental of Michigan - Member Portal</a><br />
+                <p className="h5">Delta Dental of Michigan - Member Portal</p>
                 <small className="mb-0">role</small>
                 <p className="mb-2">Senior Application Developer</p><br />
                 <small className="mb-0 ">contributions</small>
@@ -169,6 +193,13 @@ function Samples() {
                   <li className="mb-5">Performed accessibility reviews and implemented technical solutions for discovered issues</li>
                 </ul>
               </div>
+
+              <div className="col-lg-6 mt-5">
+                <img className="grow sample-img" src={deltaportaltwo} alt="artwork" />
+                <img className="grow sample-img" src={renlogin} alt="artwork" />
+              </div>
+
+
             </div>
 
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
@@ -185,9 +216,9 @@ function Samples() {
               <div className="col-lg-6 comp-cols">
                 <a href="https://dribbble.com/shots/20591072-mobile-app-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compthree} alt="artwork" /></a>
               </div>
-              {/* <div className="col-lg-4 comp-cols">
-              <a href="https://dribbble.com/shots/20590741-mobile-game-concept-screens" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={comptwo} alt="artwork" /></a>
-            </div> */}
+              <div className="col-lg-4 comp-cols">
+                <a href="https://dribbble.com/shots/20590741-mobile-game-concept-screens" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={comptwo} alt="artwork" /></a>
+              </div>
             </div>
 
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
