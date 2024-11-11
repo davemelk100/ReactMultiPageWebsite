@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Posts() {
   return (
     <div className="home">
-      <div className="container">
+      <div className="container" id="content">
         <Link to="/blog/this-is-a-post-title">
           <div className="row align-items-center my-5">
             <div className="col-lg-7">

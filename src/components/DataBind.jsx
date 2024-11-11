@@ -6,7 +6,7 @@ function DataBind () {
 
     <div className="home">
       <img className="img-art-two" src={recordtwo} alt="vinyl artwork" />
-      <div className="container">
+      <div className="container" id="content">
         <div className="row my-5">
           <div className="col-lg-12">
             <div className="row">
