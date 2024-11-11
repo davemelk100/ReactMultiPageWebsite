@@ -42,9 +42,9 @@ function Samples() {
           <li>Collaborated with product owners on multiple applications</li>
           <li>Redesigned mobile application layout on video call application</li>
           <li>Redesigned interpreter portal application</li>
-          <li>Improved accessibility on video call application to 98% from 78%</li>
+          <li>Improved accessibility on video call application from 78% to 98%</li>
           <li>Designed, developed, coded, and deployed new common headers for the product suite</li>
-          <li>Designed integration look and flow for electronic healthcare record transmissions</li>
+          <li>Designed integration look and flow for electronic healthcare record (EHR) transmissions</li>
           <li>Designed multiple dashboards</li>
           <li>Coordinated a large platform analytics UI feature deployment across multiple teams and work streams</li>
         </ul>
