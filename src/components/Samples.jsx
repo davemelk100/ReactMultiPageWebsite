@@ -70,7 +70,6 @@ function Samples() {
                 </h3>
                 <p className="text-dark font-weight-normal">These are some of the roles and projects within which I have participated.</p>
                 <p><strong>Please note: </strong>There are many more samples I'm not able to share per NDA and Confidentiality agreements.</p>
-
               </div>
 
                 <div className="col-lg-12 d-flex">
@@ -83,6 +82,7 @@ function Samples() {
                     <li className="mb-1"><a href={onuplan} download>3D Software UX Plan pt 2</a></li>
                     <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/10/uxui-solution-examples.pdf">UX/UI Solution Use Cases</a></li>
                     <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf">UX/UI Random Sketches</a></li>
+                    <li className="mb-1"><a href="https://dribbble.com/davemelk100">Creative work</a></li>
                   </ul>
                 </div>
 
