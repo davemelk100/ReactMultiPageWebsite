@@ -40,8 +40,10 @@ import powerbi from './powerbi.png';
 import powerbione from './powerbione.png';
 import powerbitwo from './powerbitwo.png';
 import onuplan from './onu-one-uxui-plan.pdf'
-import lansingone from './lansing-promise-comp-3.png'
-import lansingtwo from './lansing-promise-comp-2.png'
+// import lansingone from './lansing-promise-comp-3.png'
+// import lansingtwo from './lansing-promise-comp-2.png'
+import lansingtop from './lansing-1.png'
+import lansingbottom from './lansing-2.png'
 import videoconf from './remote-int.pdf'
 // import artprizesearch from './artprizesearch.png';
 // import artprizevenue from './artprizevenue.png';
@@ -158,7 +160,7 @@ function Samples() {
 
 
 
-              <div className="col-lg-6 mt-5 d-flex flex-column">
+              <div className="col-lg-12 mt-5 d-flex flex-column">
                 <small className="mb-0">project</small>
                 <p className="h5">Lansing Promise app</p><br />
                 <small className="mb-0">role</small>
@@ -173,9 +175,11 @@ function Samples() {
                 </ul>
               </div>
 
-              <div className="col-lg-6 p-4">
-                <img className="grow sample-img" src={lansingone} alt="artwork" />
-                <img className="grow sample-img" src={lansingtwo} alt="artwork" />
+              <div className="col-lg-12 p-4">
+                {/* <img className="grow sample-img" src={lansingone} alt="artwork" />
+                <img className="grow sample-img" src={lansingtwo} alt="artwork" /> */}
+                <img className="grow sample-img" src={lansingtop} alt="lansing comp" />
+                <img className="grow sample-img" src={lansingbottom} alt="lansing comp two" />
               </div>
 
               {/*  
