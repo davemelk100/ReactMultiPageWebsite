@@ -263,7 +263,7 @@ a {
 .text-card  {
   width: 100%;
   height: auto;
-  background: white;
+  background: rgba(255,255,255,0.5);
   /* background: linear-gradient(to top, white 0%, #1C77C3 100%); */
   padding: 15px;
   /* color: white; */

@@ -108,7 +108,7 @@ function Skills() {
 
                     <div className="row my-2 mx-1 sample-row d-flex flex-row">
                       <div className="col-lg-12 text-card mb-3">
-                        <h3 className="mb-3">Front End Development</h3>
+                        <h3 className="mb-0">Front End Development</h3>
                       </div>
                       <div className="col-lg-12">
                         <ul>
@@ -122,7 +122,7 @@ function Skills() {
 
                 <div className="row my-2 mx-1 sample-row d-flex flex-row">
                   <div className="col-lg-12 text-card mb-3">
-                    <h3 className="mb-3">
+                    <h3 className="mb-0">
                       Front End Design
                     </h3>
                   </div>
@@ -136,7 +136,7 @@ function Skills() {
 
                 <div className="row my-4 mx-1 sample-row d-flex flex-row">
                   <div className="col-lg-12 text-card mb-3">
-                    <h3 className="mb-3">
+                    <h3 className="mb-0">
                       User Experience Design
                     </h3>
                   </div>
@@ -151,7 +151,7 @@ function Skills() {
 
                 <div className="row my-4 mx-1 sample-row d-flex flex-row">
                   <div className="col-lg-12 text-card mb-3">
-                    <h3 className="mb-3">
+                    <h3 className="mb-0">
                       Package Management
                     </h3>
                   </div>
@@ -169,7 +169,7 @@ function Skills() {
 
                 <div className="row my-4 mx-1 sample-row d-flex flex-row">
                   <div className="col-lg-12 text-card mb-3">
-                    <h3 className="mb-3">
+                    <h3 className="mb-0">
                       Development Tooling
                     </h3>
                   </div>
@@ -184,7 +184,7 @@ function Skills() {
 
                 <div className="row my-4 mx-1 sample-row d-flex flex-row">
                   <div className="col-lg-12 text-card mb-3">
-                    <h3 className="mb-3">
+                    <h3 className="mb-0">
                       Methodologies and Disciplines
                     </h3>
                   </div>
