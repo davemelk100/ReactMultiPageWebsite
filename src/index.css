@@ -230,6 +230,7 @@ a {
 .img-art-two {
   opacity: .25;
   position: absolute;
+  right: 0;
   width: 37%;
   height: auto;
 }
