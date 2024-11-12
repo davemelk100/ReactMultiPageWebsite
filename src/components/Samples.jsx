@@ -70,11 +70,7 @@ function Samples() {
             </div>
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12">
-                <h3 className="mb-0 p-0">
-                  Projects&nbsp;&nbsp;&nbsp;
-                </h3>
-                <p className="text-dark font-weight-normal">These are some of the roles and projects within which I have participated.</p>
-                <p><strong>Please note: </strong>There are many more samples I'm not able to share per NDA and Confidentiality agreements.</p>
+                <p className="mt-3"><strong>Please note: </strong>There are many more samples I'm not able to share per NDA and Confidentiality agreements.</p>
               </div>
 
               <div className="col-lg-12 d-flex">
