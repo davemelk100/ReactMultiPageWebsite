@@ -3578,3 +3578,8 @@ small {
   text-transform: uppercase;
   font-weight: 600;
 }
+
+.iframe-div {
+  justify-content: center;
+  display: flex;
+}
