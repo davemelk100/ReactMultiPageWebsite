@@ -99,7 +99,7 @@ function Samples() {
                 <small className="mb-0">role</small>
                 <p className="mb-2">UX/UI Developer</p><br />
                 <small className="mb-0">contributions</small>
-                <ul className="mb-5 pt-0 pb-4 py-0">
+                <ul className="mb-2 pt-0 pb-1 py-0">
                   <li className="mb-4">Built out resdesign concept for a customer service application</li>
                   <li className="mb-4">Created the comps using a combination of HTML, CSS, TS, JS, and Figma</li>
                 </ul>
@@ -141,17 +141,17 @@ function Samples() {
                 <small className="mb-0">role</small>
                 <p className="mb-2">Senior Application Developer</p><br />
                 <small className="mb-0 ">contributions</small>
-                <ul className="mb-5">
-                  <li className="mb-5">Extended the individual shopping design system using Angular with custom HTML and CSS</li>
-                  <li className="mb-5">Troubleshooting JavaScript/HTML/CSS/etc</li>
-                  <li className="mb-5">Conducted code reviews and desk checks</li>
-                  <li className="mb-5">Conducted heuristic evaluations of product to identify user experience issues</li>
-                  <li className="mb-4">Created the digital accessibility discipline for Delta Dental</li>
-                  <li className="mb-5">Performed accessibility reviews and implemented technical solutions for discovered issues</li>
+                <ul className="mb-2">
+                  <li className="mb-3">Extended the individual shopping design system using Angular with custom HTML and CSS</li>
+                  <li className="mb-3">Troubleshooting JavaScript/HTML/CSS/etc</li>
+                  <li className="mb-3">Conducted code reviews and desk checks</li>
+                  <li className="mb-3">Conducted heuristic evaluations of product to identify user experience issues</li>
+                  <li className="mb-3">Created the digital accessibility discipline for Delta Dental</li>
+                  <li className="mb-3">Performed accessibility reviews and implemented technical solutions for discovered issues</li>
                 </ul>
               </div>
 
-              <div className="col-lg-12 mt-5">
+              <div className="col-lg-12 mt-2">
                 {/* <img className="grow sample-img" src={deltaportaltwo} alt="artwork" /> */}
                 <img className="grow sample-img" src={deltaportalsq} alt="portal login" />
                 {/* <img className="grow sample-img" src={renlogin} alt="portal login diff" /> */}
@@ -160,13 +160,13 @@ function Samples() {
 
 
 
-              <div className="col-lg-12 mt-5 d-flex flex-column">
+              <div className="col-lg-12 mt-2 d-flex flex-column">
                 <small className="mb-0">project</small>
                 <p className="h5">Lansing Promise app</p><br />
                 <small className="mb-0">role</small>
                 <p className="mb-2">UX/UI Consultant</p><br />
                 <small className="mb-0">contributions</small>
-                <ul className="mb-5 pt-0 pb-4 py-0">
+                <ul className="mb-2 pt-0 pb-1 py-0">
                   <li className="mb-4">Worked with one of our summer interns on enhancing an application
                     created by Dewpoint in support of a special project for the city of Lansing, MI
                   </li>
@@ -190,7 +190,7 @@ function Samples() {
                 <small className="mb-0">role</small>
                 <p className="mb-2">Senior Application Developer</p><br />
                 <small className="mb-0">contributions</small>
-                <ul className="mb-5 pt-0 pb-4 py-0">
+                <ul className="mb-2 pt-0 pb-1 py-0">
                   <li className="mb-4">Created responsive front end for a .NET application with Razor templates</li>
                   <li className="mb-4">Collaborated with creative team to implement the design</li>
                   <li className="mb-4">Interpreted wireframes to illustrate workflow</li>
@@ -213,13 +213,13 @@ function Samples() {
   
 <div className="col-lg-12 d-flex">
 
-            <div className="col-lg-6 mt-5 d-flex flex-column">
+            <div className="col-lg-6 mt-2 d-flex flex-column">
               <small className="mb-0">project</small>
               <p className="h5">Cuverd Prescription Drug mobile application</p><br />
               <small className="mb-0">role</small>
               <p className="mb-2">UX/UI Designer and Developer</p><br />
               <small className="mb-0">contributions</small>
-              <ul className="mb-5 pt-0 pb-4 py-0">
+              <ul className="mb-2 pt-0 pb-1 py-0">
                 <li className="mb-4">Created functional prototype using proto.io for mobile application</li>
                 <li className="mb-4">Collaborated with product owner to bring the app vision to life</li>
                 <li className="mb-4">Worked with product owner to build a user experience that will be the product's differentiator</li>
@@ -385,13 +385,13 @@ function Samples() {
                 </h3>
                 <p>This a layout template created after multiple iterations and testing with users.</p>
               </div>
-              <div className="col-lg-4 comp-cols">
+              <div className="col-lg-12 comp-cols">
                 <a href="https://dribbble.com/shots/21664606-Power-BI-dashboard-design" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={powerbi} alt="artwork" /></a>
               </div>
-              <div className="col-lg-4 comp-cols">
+              <div className="col-lg-12 comp-cols">
                 <a href="https://dribbble.com/shots/21664606-Power-BI-dashboard-design" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={powerbione} alt="artwork" /></a>
               </div>
-              <div className="col-lg-4 comp-cols">
+              <div className="col-lg-12 comp-cols">
                 <a href="https://dribbble.com/shots/21664606-Power-BI-dashboard-design" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={powerbitwo} alt="artwork" /></a>
               </div>
             </div>
