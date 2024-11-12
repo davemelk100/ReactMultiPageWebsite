@@ -43,9 +43,9 @@ import onuplan from './onu-one-uxui-plan.pdf'
 import lansingone from './lansing-promise-comp-3.png'
 import lansingtwo from './lansing-promise-comp-2.png'
 import videoconf from './remote-int.pdf'
-import artprizesearch from './artprizesearch.png';
-import artprizevenue from './artprizevenue.png';
-import artprizevenuesq from './art-prize-venue.png';
+// import artprizesearch from './artprizesearch.png';
+// import artprizevenue from './artprizevenue.png';
+// import artprizevenuesq from './art-prize-venue.png';
 import deltasearch from './delta-search.png'
 
 
