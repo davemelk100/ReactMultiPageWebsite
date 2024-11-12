@@ -20,8 +20,7 @@ function Rxapp() {
                 <h3 className="mb-1">Clickable Prototype</h3>
               </div>
               <div className="col-lg-12 iframe-div">
-                
-              <iframe width="600" height="1000" title="mobile prototype embed">
+              <iframe width="420" height="1000" title="mobile prototype embed" src="../rxapp/index.html">
               </iframe>
               
             </div>

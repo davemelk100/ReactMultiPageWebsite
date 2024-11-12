@@ -9,6 +9,7 @@ import {
   Footer,
   Home,
   Samples,
+  Rxapp,
   Patterns,
   Skills,
   Contact,
@@ -26,7 +27,7 @@ ReactDOM.render(
       <Route path="/patterns" element={<Patterns />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/rxapp" element={<Rxapp />} />
       <Route path="/resumes" element={<Resumes />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
