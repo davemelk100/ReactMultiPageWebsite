@@ -111,7 +111,7 @@ function Samples() {
                 <img className="grow sample-img" src={lansingthree} alt="artwork" />
               </div> */}
 
-              <div className="col-lg-6 p-4">
+              <div className="col-lg-12 p-4">
                 <small className="mb-2">project</small>
                 <p className="h5">Delta Dental of Michigan - Individual Shopping platform</p>
                 <small className="mb-0">role</small>
@@ -128,14 +128,14 @@ function Samples() {
                   <li className="mb-4">Collaborated with design agency to ensure design systems are technically feasible</li>
                 </ul>
               </div>
-              <div className="col-lg-6 mb-5">
+              <div className="col-lg-12 mb-5">
                 <img className="grow sample-img" src={deltaportalsq} alt="login page for one customer" />
                 {/* <img className="grow sample-img" src={deltaportalthree} alt="login page for one customer" /> */}
                 <img className="grow sample-img" src={deltasearch} alt="clever search idea" />
                 {/* <img className="grow sample-img" src={renshopping} alt="login page for another customer" /> */}
               </div>
 
-              <div className="col-lg-6 mt-5 d-flex flex-column">
+              <div className="col-lg-12 mt-5 d-flex flex-column">
                 <small className="mb-0">project</small>
                 <p className="h5">Delta Dental of Michigan - Member Portal</p>
                 <small className="mb-0">role</small>
@@ -151,7 +151,7 @@ function Samples() {
                 </ul>
               </div>
 
-              <div className="col-lg-6 mt-5">
+              <div className="col-lg-12 mt-5">
                 {/* <img className="grow sample-img" src={deltaportaltwo} alt="artwork" /> */}
                 <img className="grow sample-img" src={deltaportalsq} alt="portal login" />
                 {/* <img className="grow sample-img" src={renlogin} alt="portal login diff" /> */}
