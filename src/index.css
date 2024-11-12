@@ -8,7 +8,7 @@ body {
   font-weight: 500;
   background-color: #ffffff;
   color: black;
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
   animation: fadein 2s;
   -moz-animation: fadein 2s;
@@ -501,11 +501,11 @@ button,html input[type=button],input[type=reset],input[type=submit] {
 
 p {
   margin: 0 0 5px 0;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 ul li {
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 a {
