@@ -4,7 +4,7 @@ body {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   background-color: #ffffff;
   color: black;
@@ -49,13 +49,13 @@ body {
   }
 }
 .h1, .h2, .h3, .h4, .h5, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rokkitt', serif;
+  font-family: 'Work Sans', serif;
 }
 h1 {
   margin: 0 0 15px;
   display: flex;
   justify-content: flex-start;
-  font-family: 'Rokkitt', serif;
+  font-family: 'Work Sans', serif;
   letter-spacing: -1px;
 }
 
@@ -63,14 +63,14 @@ h2 {
   display: flex;
   justify-content: flex-start;
   margin: 0 0 10px;
-  font-family: 'Rokkitt', serif;
-  letter-spacing: -1px;
+  font-family: 'Work Sans', serif;
+  letter-spacing: -2px;
 }
 
 h3 {
   margin: 0 0 5px;
   display: flex;
-  font-family: 'Rokkitt', serif;
+  font-family: 'Work Sans', serif;
   letter-spacing: -1px;
 }
 
@@ -3542,7 +3542,7 @@ app-tooltip {
 }
 
 .work-history p strong {
-  font-family: 'Rokkitt';
+  font-family: 'Work Sans';
   font-size: 24px;
 }
 
