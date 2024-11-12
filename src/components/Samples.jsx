@@ -45,6 +45,7 @@ import lansingtwo from './lansing-promise-comp-2.png'
 import videoconf from './remote-int.pdf'
 import artprizesearch from './artprizesearch.png';
 import artprizevenue from './artprizevenue.png';
+import artprizevenuesq from './art-prize-venue.png';
 import deltasearch from './delta-search.png'
 
 
@@ -180,7 +181,7 @@ function Samples() {
                 <img className="grow sample-img" src={lansingtwo} alt="artwork" />
               </div>
 
- 
+{/*  
 
               <div className="col-lg-6 mt-5 d-flex flex-column">
                 <small className="mb-0">project</small>
@@ -194,7 +195,7 @@ function Samples() {
                   <li className="mb-4">Interpreted wireframes to illustrate workflow</li>
                   <li className="mb-4">Created working prototype of an Umbraco CMS</li>
                   <li className="mb-4">Implemented a carousel mechanism to prominently display the artists' work</li>
-                  <li className="mb-4">Built a Masonry layout for search results (a la Pinterest)</li>
+                  <li className="mb-4">Built a Masonry layout for search results</li>
                   <li className="mb-4">Designed and built a banner and edit button treatment for all editing pages</li>
                   <li className="mb-4">Created style and layout for admin pages, confirmation messages, and alerts</li>
                   <li className="mb-4">Maintained a design system including all controls and typography</li>
@@ -204,8 +205,9 @@ function Samples() {
               <div className="col-lg-6 p-4">
                 <img className="grow sample-img" src={artprizesearch} alt="artwork" />
                 <img className="grow sample-img" src={artprizevenue} alt="artwork" />
+                <img className="grow sample-img" src={artprizevenuesq} alt="artwork" />
               </div>
-
+ */}
 
 
             </div>
