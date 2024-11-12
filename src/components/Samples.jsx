@@ -5,10 +5,13 @@ import compthree from './compthree.png';
 import compfour from './compfour.png';
 import compfive from './compfive.png';
 import compsix from './compsix.png';
-import renshopping from './renshopping.png';
-import renlogin from './renlogin.png';
-import deltaportal from './deltaportal.png';
-import deltaportaltwo from './deltaportaltwo.png';
+// import renshopping from './renshopping.png';
+// import renlogin from './renlogin.png';
+// import deltaportal from './deltaportal.png';
+// import deltaportaltwo from './deltaportaltwo.png';
+// import deltaportalthree from './delta-search.png';
+import deltaportalsq from './delta-portal-sq.png'
+import renportalsq from './ren-portal-sq.png'
 import wireone from './wireone.jpg';
 import wiretwo from './wiretwo.jpg';
 import wirethree from './wirethree.jpg';
@@ -39,10 +42,10 @@ import powerbitwo from './powerbitwo.png';
 import onuplan from './onu-one-uxui-plan.pdf'
 import lansingone from './lansing-promise-comp-3.png'
 import lansingtwo from './lansing-promise-comp-2.png'
-import lansingthree from './lansing-promise-comp.png'
 import videoconf from './remote-int.pdf'
 import artprizesearch from './artprizesearch.png';
 import artprizevenue from './artprizevenue.png';
+import deltasearch from './delta-search.png'
 
 
 function Samples() {
@@ -68,7 +71,7 @@ function Samples() {
               </div>
 
                 <div className="col-lg-12 d-flex">
-                  <ul className="list-unstyled">
+                  <ul className="list-unstyled mt-4">
                     <li title="heading"><small className="mb-0 p-0">sample links</small></li>
                     <li className="mb-1"><a href={videoconf} download>Video conference concept</a></li>
                     <li className="mb-1"><a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1">Mobile App Prototype - Help Desk</a></li>
@@ -106,6 +109,52 @@ function Samples() {
 
 
 
+<div className="col-lg-6 p-4">
+                <small className="mb-2">project</small>
+                <p className="h5">Delta Dental of Michigan - Individual Shopping platform</p>
+                <small className="mb-0">role</small>
+                <p className="mb-2">Senior Application Developer</p><br />
+                <small className="mb-0">contributions</small>
+                <ul className="mb-6">
+                  <li className="mb-4">Created responsive front end for an Angular application using Bootstrap and significant custom HTML and CSS.</li>
+                  <li className="mb-4">Created Freemarker templates for a Magnolia CMS</li>
+                  <li className="mb-4">Created alternate theme for Renaissance company</li>
+                  <li className="mb-4">Managed UX/UI team at onset of COMPANY Solutions SaaS project</li>
+                  <li className="mb-4">Ran the UX/UI council at Delta Dental</li>
+                  <li className="mb-4">Performed accessibility reviews and implemented technical solutions for any issues</li>
+                  <li className="mb-4">Built a living style guide / design system for reference when project was initiated</li>
+                  <li className="mb-4">Collaborated with design agency to ensure design systems are technically feasible</li>
+                </ul>
+              </div>
+              <div className="col-lg-6 mb-5">
+              <img className="grow sample-img" src={deltaportalsq} alt="login page for one customer" />
+                {/* <img className="grow sample-img" src={deltaportalthree} alt="login page for one customer" /> */}
+                <img className="grow sample-img" src={deltasearch} alt="clever search idea" />
+                {/* <img className="grow sample-img" src={renshopping} alt="login page for another customer" /> */}
+              </div>
+          
+              <div className="col-lg-6 mt-5 d-flex flex-column">
+                <small className="mb-0">project</small>
+                <p className="h5">Delta Dental of Michigan - Member Portal</p>
+                <small className="mb-0">role</small>
+                <p className="mb-2">Senior Application Developer</p><br />
+                <small className="mb-0 ">contributions</small>
+                <ul className="mb-5">
+                  <li className="mb-5">Extended the individual shopping design system using Angular with custom HTML and CSS</li>
+                  <li className="mb-5">Troubleshooting JavaScript/HTML/CSS/etc</li>
+                  <li className="mb-5">Conducted code reviews and desk checks</li>
+                  <li className="mb-5">Conducted heuristic evaluations of product to identify user experience issues</li>
+                  <li className="mb-4">Created the digital accessibility discipline for Delta Dental</li>
+                  <li className="mb-5">Performed accessibility reviews and implemented technical solutions for discovered issues</li>
+                </ul>
+              </div>
+
+              <div className="col-lg-6 mt-5">
+                {/* <img className="grow sample-img" src={deltaportaltwo} alt="artwork" /> */}
+                <img className="grow sample-img" src={deltaportalsq} alt="portal login" />
+                {/* <img className="grow sample-img" src={renlogin} alt="portal login diff" /> */}
+                <img className="grow sample-img" src={renportalsq} alt="portal login diff" />
+              </div>
 
 
 
@@ -127,7 +176,6 @@ function Samples() {
               <div className="col-lg-6 p-4">
                 <img className="grow sample-img" src={lansingone} alt="artwork" />
                 <img className="grow sample-img" src={lansingtwo} alt="artwork" />
-                <img className="grow sample-img" src={lansingthree} alt="artwork" />
               </div>
 
  
@@ -156,48 +204,6 @@ function Samples() {
                 <img className="grow sample-img" src={artprizevenue} alt="artwork" />
               </div>
 
-              <div className="col-lg-6 p-4">
-                <small className="mb-2">project</small>
-                <p className="h5">Delta Dental of Michigan - Individual Shopping platform</p>
-                <small className="mb-0">role</small>
-                <p className="mb-2">Senior Application Developer</p><br />
-                <small className="mb-0">contributions</small>
-                <ul className="mb-6">
-                  <li className="mb-4">Created responsive front end for an Angular application using Bootstrap and significant custom HTML and CSS.</li>
-                  <li className="mb-4">Created Freemarker templates for a Magnolia CMS</li>
-                  <li className="mb-4">Created alternate theme for Renaissance company</li>
-                  <li className="mb-4">Managed UX/UI team at onset of COMPANY Solutions SaaS project</li>
-                  <li className="mb-4">Ran the UX/UI council at Delta Dental</li>
-                  <li className="mb-4">Performed accessibility reviews and implemented technical solutions for any issues</li>
-                  <li className="mb-4">Built a living style guide / design system for reference when project was initiated</li>
-                  <li className="mb-4">Collaborated with design agency to ensure design systems are technically feasible</li>
-                </ul>
-              </div>
-              <div className="col-lg-6 mb-5">
-                <img className="grow sample-img" src={deltaportal} alt="artwork" />
-                <img className="grow sample-img" src={renshopping} alt="artwork" />
-              </div>
-          
-              <div className="col-lg-6 mt-5 d-flex flex-column">
-                <small className="mb-0">project</small>
-                <p className="h5">Delta Dental of Michigan - Member Portal</p>
-                <small className="mb-0">role</small>
-                <p className="mb-2">Senior Application Developer</p><br />
-                <small className="mb-0 ">contributions</small>
-                <ul className="mb-5">
-                  <li className="mb-5">Extended the individual shopping design system using Angular with custom HTML and CSS</li>
-                  <li className="mb-5">Troubleshooting JavaScript/HTML/CSS/etc</li>
-                  <li className="mb-5">Conducted code reviews and desk checks</li>
-                  <li className="mb-5">Conducted heuristic evaluations of product to identify user experience issues</li>
-                  <li className="mb-4">Created the digital accessibility discipline for Delta Dental</li>
-                  <li className="mb-5">Performed accessibility reviews and implemented technical solutions for discovered issues</li>
-                </ul>
-              </div>
-
-              <div className="col-lg-6 mt-5">
-                <img className="grow sample-img" src={deltaportaltwo} alt="artwork" />
-                <img className="grow sample-img" src={renlogin} alt="artwork" />
-              </div>
 
 
             </div>
