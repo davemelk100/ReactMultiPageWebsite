@@ -60,6 +60,7 @@ function Samples() {
               <div className="col-lg-12">
                 <Person />
                 <h2 className="col-lg-12 p-0 page-title">Samples</h2>
+                <p><strong>Please note: </strong>There are many more samples I'm not able to share per NDA and Confidentiality agreements.</p>
               </div>
             </div>
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
