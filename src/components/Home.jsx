@@ -51,7 +51,7 @@ function Home() {
                     graphic design systems and integrated them directly with front end code. I've created wireframes, graphic
                     comps, design systems, working prototypes and fully coded POCs. I am fluent in Photoshop, Illustrator, Sketch and Figma.
                     </p> */}
-                <section className="professional-summary">
+                <section className="professional-summary mt-4">
                   <p>With a diverse background in enterprise software delivery, my experience spans projects for high-profile clients such as HealthCare.gov, Blue Cross Blue Shield, United Healthcare, Meridian Health, Delta Dental of Michigan, Ford Motor Company, and General Motors. My roles have included delivery manager, technical lead, accessibility lead, user experience (UX) and user interface (UI) designer/developer, consultant, and technical writer.</p>
                   <p>I've contributed to numerous applications, including Delta Dental's MySmileCoverage site, the Member Portal, and the SaaS product Roosevelt Solutions. I've also been involved with Blue Cross Blue Shield of Michigan's platforms like bcbsm.com and mibcn.com, as well as many other projects of various scales.</p>
                 </section>

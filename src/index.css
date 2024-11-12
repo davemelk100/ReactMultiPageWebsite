@@ -4,11 +4,11 @@ body {
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
+  font-family: 'Work Sans', sans-serif !important;
+  font-weight: 500;
   background-color: #ffffff;
   color: black;
-  font-size: 1.25rem;
+  font-size: 16px;
   position: relative;
   animation: fadein 2s;
   -moz-animation: fadein 2s;
@@ -500,6 +500,11 @@ button,html input[type=button],input[type=reset],input[type=submit] {
 
 p {
   margin: 0 0 5px 0;
+  font-size: 14px;
+}
+
+ul li {
+  font-size: 14px;
 }
 
 a {
