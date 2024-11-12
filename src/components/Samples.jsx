@@ -47,6 +47,9 @@ import videoconf from './remote-int.pdf'
 // import artprizevenue from './artprizevenue.png';
 // import artprizevenuesq from './art-prize-venue.png';
 import deltasearch from './delta-search.png'
+import rxappone from './rxapp.png'
+import rxapptwo from './rxapp2.png'
+
 
 
 function Samples() {
@@ -56,7 +59,7 @@ function Samples() {
       <img className="img-art-two position-fixed" src={recordtwo} alt="artwork" />
       <div className="container" id="content">
         <div className="row my-3">
-        <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
+          <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
             <div className="row">
               <div className="col-lg-12">
                 <Person />
@@ -64,7 +67,7 @@ function Samples() {
               </div>
             </div>
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
-              <div className="col-lg-12 text-card">
+              <div className="col-lg-12">
                 <h3 className="mb-0 p-0">
                   Projects&nbsp;&nbsp;&nbsp;
                 </h3>
@@ -72,23 +75,22 @@ function Samples() {
                 <p><strong>Please note: </strong>There are many more samples I'm not able to share per NDA and Confidentiality agreements.</p>
               </div>
 
-                <div className="col-lg-12 d-flex">
-                  <ul className="list-unstyled mt-4">
-                    <li title="heading"><small className="mb-0 p-0">sample links</small></li>
-                    <li className="mb-1"><a href={videoconf} download>Video conference concept</a></li>
-                    <li className="mb-1"><a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1">Mobile App Prototype - Help Desk</a></li>
-                    {/* <li className="mb-1"><a href="https://davemelkwork.com/frame">Mobile App Prototype - Rx App</a></li> */}
-                    <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/10/onu-one-uxui-plan.pdf">3D Software UX Plan</a></li>
-                    <li className="mb-1"><a href={onuplan} download>3D Software UX Plan pt 2</a></li>
-                    <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/10/uxui-solution-examples.pdf">UX/UI Solution Use Cases</a></li>
-                    <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf">UX/UI Random Sketches</a></li>
-                    <li className="mb-1"><a href="https://dribbble.com/davemelk100">Creative work</a></li>
-                  </ul>
-                </div>
+              <div className="col-lg-12 d-flex">
+                <ul className="list-unstyled mt-4">
+                  <li title="heading"><small className="mb-0 p-0">sample links</small></li>
+                  <li className="mb-1"><a href={videoconf} download>Video conference concept</a></li>
+                  <li className="mb-1"><a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1">Mobile App Prototype - Help Desk</a></li>
+                  <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/10/onu-one-uxui-plan.pdf">3D Software UX Plan</a></li>
+                  <li className="mb-1"><a href={onuplan} download>3D Software UX Plan pt 2</a></li>
+                  <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/10/uxui-solution-examples.pdf">UX/UI Solution Use Cases</a></li>
+                  <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf">UX/UI Random Sketches</a></li>
+                  <li className="mb-1"><a href="https://dribbble.com/davemelk100">Creative work</a></li>
+                </ul>
+              </div>
 
 
 
-{/* 
+              {/* 
                 <div className="col-lg-6 mt-5 d-flex flex-column">
                 <small className="mb-0">project</small>
                 <p className="h5">CONFIDENTIAL</p><br />
@@ -107,12 +109,7 @@ function Samples() {
                 <img className="grow sample-img" src={lansingthree} alt="artwork" />
               </div> */}
 
-
-
-
-
-
-<div className="col-lg-6 p-4">
+              <div className="col-lg-6 p-4">
                 <small className="mb-2">project</small>
                 <p className="h5">Delta Dental of Michigan - Individual Shopping platform</p>
                 <small className="mb-0">role</small>
@@ -130,12 +127,12 @@ function Samples() {
                 </ul>
               </div>
               <div className="col-lg-6 mb-5">
-              <img className="grow sample-img" src={deltaportalsq} alt="login page for one customer" />
+                <img className="grow sample-img" src={deltaportalsq} alt="login page for one customer" />
                 {/* <img className="grow sample-img" src={deltaportalthree} alt="login page for one customer" /> */}
                 <img className="grow sample-img" src={deltasearch} alt="clever search idea" />
                 {/* <img className="grow sample-img" src={renshopping} alt="login page for another customer" /> */}
               </div>
-          
+
               <div className="col-lg-6 mt-5 d-flex flex-column">
                 <small className="mb-0">project</small>
                 <p className="h5">Delta Dental of Michigan - Member Portal</p>
@@ -169,19 +166,19 @@ function Samples() {
                 <small className="mb-0">contributions</small>
                 <ul className="mb-5 pt-0 pb-4 py-0">
                   <li className="mb-4">Worked with one of our summer interns on enhancing an application
-                  created by Dewpoint in support of a special project for the city of Lansing, MI
+                    created by Dewpoint in support of a special project for the city of Lansing, MI
                   </li>
                   <li className="mb-4">Coded prototype page designs for UI enhancement</li>
                   <li className="mb-4">Created desktop, mobile and tablet views, as this is a mobile-first application</li>
                 </ul>
               </div>
-             
+
               <div className="col-lg-6 p-4">
                 <img className="grow sample-img" src={lansingone} alt="artwork" />
                 <img className="grow sample-img" src={lansingtwo} alt="artwork" />
               </div>
 
-{/*  
+              {/*  
 
               <div className="col-lg-6 mt-5 d-flex flex-column">
                 <small className="mb-0">project</small>
@@ -209,11 +206,36 @@ function Samples() {
               </div>
  */}
 
+  
+<div className="col-lg-12 d-flex">
 
+            <div className="col-lg-6 mt-5 d-flex flex-column">
+              <small className="mb-0">project</small>
+              <p className="h5">Cuverd Prescription Drug mobile application</p><br />
+              <small className="mb-0">role</small>
+              <p className="mb-2">UX/UI Designer and Developer</p><br />
+              <small className="mb-0">contributions</small>
+              <ul className="mb-5 pt-0 pb-4 py-0">
+                <li className="mb-4">Created functional prototype using proto.io for mobile application</li>
+                <li className="mb-4">Collaborated with product owner to bring the app vision to life</li>
+                <li className="mb-4">Worked with product owner to build a user experience that will be the product's differentiator</li>
+                <li className="mb-4">Built demos to be presented to board members and financial backers</li>
+                <li className="mb-4">Converted the proto.io concept application to HTML/CSS/JavaScript for handoff to app developers</li>
+              </ul>
             </div>
 
-            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
-              <div className="col-lg-12 text-card">
+
+            <div className="col-lg-6 p-4">
+              <img className="grow sample-img-tall" src={rxappone} alt="rx app 1" />
+              <img className="grow sample-img-tall" src={rxapptwo} alt="rx app 2" />
+            </div>
+</div>
+
+<div className="col-lg-12">
+
+
+            <div className="row my-5 mx-1 pb-5 d-flex">
+              <div className="col-lg-12">
                 <h3 className="mb-3">
                   <a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App game concept</a>
                 </h3>
@@ -231,8 +253,8 @@ function Samples() {
               </div>
             </div>
 
-            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
-              <div className="col-lg-12 text-card">
+            <div className="row my-5 mx-1 pb-5 d-flex">
+              <div className="col-lg-12">
                 <h3 className="mb-3">
                   <a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App ticketing system</a>
                 </h3>
@@ -247,9 +269,12 @@ function Samples() {
                 <a href="https://dribbble.com/shots/20590951-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compsix} alt="artwork" /></a>
               </div>
             </div>
+</div>
 
-            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
-              <div className="col-lg-12 text-card">
+
+
+            <div className="row my-5 mx-1 pb-5 d-flex">
+              <div className="col-lg-12">
                 <h3 className="mb-3">
                   <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer">Onu One 3D Software</a>
                 </h3>
@@ -282,10 +307,10 @@ function Samples() {
               <div className="col-lg-6 comp-cols">
                 <img className="grow sample-img" src={onuogthree} alt="artwork" />
               </div>
-              </div>
+            </div>
 
-            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
-              <div className="col-lg-12 text-card">
+            <div className="row my-5 mx-1 pb-5 d-flex">
+              <div className="col-lg-12">
                 <h3 className="mb-3">
                   <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer">Various Wirefames/Sketches</a>
                 </h3>
@@ -311,10 +336,8 @@ function Samples() {
               </div>
             </div>
 
-
-
-            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
-              <div className="col-lg-12 text-card">
+            <div className="row my-5 mx-1 pb-5 d-flex">
+              <div className="col-lg-12">
                 <h3 className="mb-3">
                   Various Digital Art&nbsp;&nbsp;&nbsp;
                 </h3>
@@ -351,10 +374,10 @@ function Samples() {
             </div>
 
 
-            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
-              <div className="col-lg-12 text-card">
+            <div className="row my-5 mx-1 pb-5 d-flex">
+              <div className="col-lg-12">
                 <h3 className="mb-3">
-                Power BI Dashboard Design
+                  Power BI Dashboard Design
                 </h3>
                 <p>This a layout template created after multiple iterations and testing with users.</p>
               </div>
@@ -371,7 +394,8 @@ function Samples() {
           </div>
         </div>
       </div>
-      </div>
-    );
+    </div>
+    </div>
+  );
 }
 export default Samples;

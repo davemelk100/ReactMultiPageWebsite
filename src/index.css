@@ -260,6 +260,12 @@ a {
   padding: 15px;
   border-radius: 5px;
 }
+.sample-img-tall {
+  width: 45%;
+  height: auto;
+  padding: 15px;
+  border-radius: 5px;
+}
 .text-card  {
   width: 100%;
   height: auto;
