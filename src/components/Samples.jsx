@@ -246,14 +246,14 @@ function Samples() {
                 <p>This group listening app concept began organically as a game played on road trips.</p>
                 <p>Project is fully conceptualized and is in progress.</p>
               </div>
-              <div className="col-lg-6 comp-cols">
-                <a href="https://dribbble.com/shots/20622909-mobile-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compfour} alt="artwork" /></a>
+              <div className="col-lg-12 comp-cols">
+                <a href="https://dribbble.com/shots/20622909-mobile-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compfour} alt="artwork 4" /></a>
               </div>
-              <div className="col-lg-6 comp-cols">
-                <a href="https://dribbble.com/shots/20591072-mobile-app-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compthree} alt="artwork" /></a>
+              <div className="col-lg-12 comp-cols">
+                <a href="https://dribbble.com/shots/20591072-mobile-app-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compthree} alt="artwork 3" /></a>
               </div>
-              <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/20590741-mobile-game-concept-screens" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={comptwo} alt="artwork" /></a>
+              <div className="col-lg-12 comp-cols">
+                <a href="https://dribbble.com/shots/20590741-mobile-game-concept-screens" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={comptwo} alt="artwork 2" /></a>
               </div>
             </div>
 
@@ -266,10 +266,10 @@ function Samples() {
                 <p>Project is complete but only available to internal employees.</p>
                 <p>Check out the <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank" rel="noopener noreferrer">protype app.</a></p>
               </div>
-              <div className="col-lg-5 comp-cols">
+              <div className="col-lg-12 comp-cols">
                 <a href="https://dribbble.com/shots/20590937-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compfive} alt="artwork" /></a>
               </div>
-              <div className="col-lg-7 comp-cols">
+              <div className="col-lg-12 comp-cols">
                 <a href="https://dribbble.com/shots/20590951-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compsix} alt="artwork" /></a>
               </div>
             </div>
