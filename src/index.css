@@ -3802,13 +3802,6 @@ small {
 }
 
 .navigation {
-  /* z-index: 1000;
-  box-shadow: 0 4px 2px -2px gray; 
-  height: 70px;
-  position: fixed; 
-  top: 0;
-  text-align: center;
-  left: 0;*/
   background: white;
   position: relative;
   width: 100%;
@@ -3901,6 +3894,16 @@ small {
 .hyper {
   text-decoration: underline;
 }
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1020; /* Ensures it stays above most other elements */
+  background-color: white; /* Ensure it's not transparent when sticky */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for visibility */
+  border-bottom: 1px solid #ddd; /* Optional border for separation */
+}
+
 
 @media (min-width: 992px) {
   .navbar-nav,

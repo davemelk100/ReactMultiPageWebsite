@@ -1,17 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-//import Person from './Person'
 
 function Navigation() {
   return (
-    <header className="navigation">
+    <header className="navigation sticky-header">
       <div className="row">
         <div className="col-12 text-center">
           <h1 className="header-title">David Melkonian</h1>
-          {/* <small>title</small>
-          <br /> */}
           <span> - </span>
-          <h2 className="header-second-title">User Experience Development and Design Professional</h2>
+          <h2 className="header-second-title">
+            User Experience Development and Design Professional
+          </h2>
         </div>
 
         <div className="col-12">
@@ -69,17 +68,6 @@ function Navigation() {
                     Contact
                   </NavLink>
                 </li>
-
-                {/* <li className="nav-item">
-                <NavLink className="nav-link" to="/scroll">
-                  Scroll
-                </NavLink>
-              </li>
-               <li className="nav-item">
-                <NavLink className="nav-link" to="/blog">
-                  Blog
-                </NavLink>
-              </li> */}
               </ul>
             </div>
           </nav>
