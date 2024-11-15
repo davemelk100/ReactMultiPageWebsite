@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  font-family: "Work Sans", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   background-color: #ffffff;
   color: black;
@@ -64,29 +64,26 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Work Sans", serif;
+  /* font-family: "Didact Gothic", serif; */
 }
 h1 {
-  margin: 0 0 15px;
+  margin: 0 0 5px;
   display: flex;
   justify-content: flex-start;
-  font-family: "Work Sans", serif;
-  letter-spacing: -2px;
+  /* font-family: "Didact Gothic", serif; */
 }
 
 h2 {
   display: flex;
   justify-content: flex-start;
   margin: 0 0 10px;
-  font-family: "Work Sans", serif;
-  letter-spacing: -2px;
+  /* font-family: "Didact Gothic", serif; */
 }
 
 h3 {
   margin: 0 0 5px;
   display: flex;
-  font-family: "Work Sans", serif;
-  letter-spacing: -1px;
+  /* font-family: "Didact Gothic", serif; */
 }
 
 h5,
@@ -96,7 +93,7 @@ h5,
 
 p,
 li {
-  font-weight: 300;
+  font-weight: 400;
 }
 .samples {
   margin: 0;
@@ -288,12 +285,12 @@ a {
   width: 100%;
   height: auto;
   background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
   /* background: linear-gradient(to top, white 0%, #1C77C3 100%); */
-  padding: 15px;
   /* color: white; */
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom: 1px solid;
+  /* border-bottom: 1px solid; */
 }
 
 .text-card-patterns {
@@ -3768,7 +3765,7 @@ app-tooltip {
 }
 
 .work-history p strong {
-  font-family: "Work Sans";
+  /* font-family: "Didact Gothic"; */
   font-size: 18px;
   font-weight: 600;
 }
@@ -3809,17 +3806,17 @@ small {
 }
 
 .navigation {
-  background: white;
-  z-index: 1000;
-  position: relative;
-  /* box-shadow: 0 4px 2px -2px gray; */
+  /* z-index: 1000;
+  box-shadow: 0 4px 2px -2px gray; 
   height: 70px;
-  /* position: fixed; 
+  position: fixed; 
   top: 0;
+  text-align: center;
   left: 0;*/
+  background: white;
+  position: relative;
   width: 100%;
   padding: 15px 20px;
-  text-align: center;
 }
 
 .brand-patch {
@@ -3892,6 +3889,12 @@ small {
 
 .navbar-collapse {
   background: white;
+}
+
+.header-title,
+.header-second-title {
+  display: inline-flex;
+  font-size: 18px;
 }
 
 @media (min-width: 992px) {
