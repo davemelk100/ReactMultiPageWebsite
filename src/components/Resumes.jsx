@@ -26,10 +26,9 @@ function Samples() {
                   Download Resume
                 </a>
                 <section className="work-history">
-                  <h2>Work History</h2>
                   <article>
                     <h3>Propio Language Services</h3>
-                    <p>
+                    <p className="mb-0">
                       <strong>Position: </strong> Principal UX/UI Developer
                     </p>
                     <p>
@@ -112,14 +111,14 @@ function Samples() {
 
                   <article>
                     <h3>Dewpoint Inc.</h3>
-                    <p>
+                    <p className="mb-0">
                       <strong>Position: </strong> Senior Application Development
                       Professional
                     </p>
-                    <p>
+                    <p className="mb-0">
                       <strong>Location: </strong> Lansing, MI
                     </p>
-                    <p>
+                    <p className="mb-0">
                       <strong>Duration: </strong> May 2016 - July 2023
                     </p>
                     <ul>
@@ -187,16 +186,16 @@ function Samples() {
 
                   <article>
                     <h3>Meridian Health Plan</h3>
-                    <p>
+                    <p className="mb-0">
                       <strong>Manager of Application Delivery</strong>
                     </p>
-                    <p>
+                    <p className="mb-0">
                       <strong>Position: </strong>Manager of Application Delivery
                     </p>
-                    <p>
+                    <p className="mb-0">
                       <strong>Location: </strong> Pontiac, MI
                     </p>
-                    <p>
+                    <p className="mb-0">
                       <strong>Duration: </strong> June 2015 - May 2016
                     </p>
                     <ul>

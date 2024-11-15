@@ -741,7 +741,6 @@ ul ul {
   list-style: none;
 }
 .list-unstyled a {
-  font-size: 16px;
   font-weight: 400;
 }
 .list-inline {
@@ -3766,8 +3765,6 @@ app-tooltip {
 }
 
 .work-history p strong {
-  /* font-family: "Didact Gothic"; */
-  font-size: 18px;
   font-weight: 600;
 }
 
@@ -3900,7 +3897,7 @@ small {
 
 .samples-top {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 @media (min-width: 992px) {

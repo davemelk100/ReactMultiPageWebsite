@@ -69,7 +69,7 @@ function Samples() {
                 <h2 className="p-0 m-0 page-title">Samples</h2>
               </div>
               <div className="col-lg-10">
-              <p className="small">
+              <p className="small mb-0">
                   <strong>Please note: </strong>There are many more samples I'm
                   not able to share per Non-disclosure and Confidentiality
                   agreements.
