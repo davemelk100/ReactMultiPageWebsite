@@ -1,5 +1,4 @@
 import React from "react";
-import Person from "./Person";
 import comptwo from "./comptwo.png";
 import compthree from "./compthree.png";
 import compfour from "./compfour.png";

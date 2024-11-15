@@ -1,5 +1,4 @@
 import React from "react";
-import Person from "./Person";
 import recordtwo from "./stripes.png";
 import dsone from "./ds1.png";
 import dstwo from "./ds2.png";

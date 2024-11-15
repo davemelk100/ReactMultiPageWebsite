@@ -1,5 +1,4 @@
 import React from "react";
-import Person from "./Person";
 import recordtwo from "./stripes.png";
 
 function Home() {

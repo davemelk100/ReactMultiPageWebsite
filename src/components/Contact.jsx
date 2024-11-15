@@ -1,6 +1,5 @@
 import React from "react";
 import recordthree from "./vinyldots.png";
-import Person from "./Person";
 
 function Contact() {
   return (

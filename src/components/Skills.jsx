@@ -1,6 +1,5 @@
 import React from "react";
 import recordtwo from "./stripes.png";
-import Person from "./Person";
 
 function Skills() {
   return (
