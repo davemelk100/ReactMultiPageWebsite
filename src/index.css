@@ -344,6 +344,7 @@ a {
 }
 .nav-item {
   text-align: center;
+  font-size: 14px;
 }
 @media only screen and (min-width: 1400px) {
   /* .img-art-two {
@@ -600,12 +601,12 @@ input[type="submit"] {
 }
 
 p {
-  margin: 0 0 5px 0;
-  /* font-size: 14px; */
+  margin: 0 0 15px 0;
+  font-size: 14px;
 }
 
 ul li {
-  /* font-size: 14px; */
+  font-size: 14px;
 }
 
 a {
@@ -3894,7 +3895,12 @@ small {
 .header-title,
 .header-second-title {
   display: inline-flex;
-  font-size: 18px;
+  font-size: 24px;
+}
+
+.samples-top {
+  display: flex;
+  align-items: flex-end;
 }
 
 @media (min-width: 992px) {

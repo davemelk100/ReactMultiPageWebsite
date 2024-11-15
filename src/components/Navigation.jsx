@@ -6,7 +6,7 @@ function Navigation() {
   return (
     <header className="navigation">
       <div className="row">
-        <div className="col-sm-12 text-center">
+        <div className="col-12 text-center">
           <h1 className="header-title">David Melkonian</h1>
           {/* <small>title</small>
           <br /> */}
@@ -14,7 +14,7 @@ function Navigation() {
           <h2 className="header-second-title">User Experience Development and Design Professional</h2>
         </div>
 
-        <div className="col-sm-12">
+        <div className="col-12">
           <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
             <button
               className="navbar-toggler mb-2"
