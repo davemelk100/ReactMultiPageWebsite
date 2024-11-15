@@ -19,12 +19,6 @@ function Skills() {
               </div>
             </div>
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
-              <div className="col-lg-12 text-card mb-3">
-                <h3 className="mb-0 p-0">Skills</h3>
-                <p className="text-dark font-weight-normal">
-                  There are many, see below :-)
-                </p>
-              </div>
               <div className="col-lg-6">
                 <ul>
                   <li>HTML</li>

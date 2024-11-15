@@ -14,23 +14,26 @@ function Samples() {
         <div className="row my-3">
           <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
             <div className="row">
-              <div className="col-lg-12">
-                {/* <Person /> */}
-                <h2 className="col-lg-12 p-0 page-title">Resume</h2>
+              <div className="col-lg-2">
+                <h2 className="p-0 m-0 page-title">Resume</h2>
+              </div>
+              <div className="col-lg-10 d-flex align-items-center">
+                <p className="small mb-0">
+                  <a className="d-flex" href={resumepdf} download>
+                    Download
+                  </a>
+                </p>
               </div>
             </div>
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card">
-                <a className="my-1 d-flex" href={resumepdf} download>
-                  Download Resume
-                </a>
                 <section className="work-history">
                   <article>
                     <h3>Propio Language Services</h3>
                     <p className="mb-0">
                       <strong>Position: </strong> Principal UX/UI Developer
                     </p>
-                    <p>
+                    <p className="mb-0">
                       <strong>Location: </strong> Overland Park, KS
                     </p>
                     <p>
@@ -117,7 +120,7 @@ function Samples() {
                     <p className="mb-0">
                       <strong>Location: </strong> Lansing, MI
                     </p>
-                    <p className="mb-0">
+                    <p>
                       <strong>Duration: </strong> May 2016 - July 2023
                     </p>
                     <ul>
@@ -194,7 +197,7 @@ function Samples() {
                     <p className="mb-0">
                       <strong>Location: </strong> Pontiac, MI
                     </p>
-                    <p className="mb-0">
+                    <p>
                       <strong>Duration: </strong> June 2015 - May 2016
                     </p>
                     <ul>
@@ -242,10 +245,10 @@ function Samples() {
 
                   <article>
                     <h3>Optum / United Healthcare Group</h3>
-                    <p>
+                    <p className="mb-0">
                       <strong>Position: </strong> Software Development Manager
                     </p>
-                    <p>
+                    <p className="mb-0">
                       <strong>Location: </strong> Southfield, MI
                     </p>
                     <p>
@@ -302,10 +305,10 @@ function Samples() {
 
                   <article>
                     <h3>Blue Cross Blue Shield of Michigan</h3>
-                    <p>
+                    <p className="mb-0">
                       <strong>Position: </strong> Senior Application Developer
                     </p>
-                    <p>
+                    <p className="mb-0">
                       <strong>Location: </strong> Detroit, MI
                     </p>
                     <p>
@@ -348,10 +351,10 @@ function Samples() {
 
                   <article>
                     <h3>Ford Motor Company (contract from ASG Renaissance)</h3>
-                    <p>
+                    <p className="mb-0">
                       <strong>Position: </strong> Technical Writer
                     </p>
-                    <p>
+                    <p className="mb-0">
                       <strong>Location: </strong> Dearborn, MI
                     </p>
                     <p>
@@ -379,10 +382,11 @@ function Samples() {
 
                   <article>
                     <h3>EDS</h3>
-                    <p>
-                      <strong>Position: </strong> Project Manager
+                    <p className="mb-0">
+                      <strong>Position: </strong> Project Manager / Technical
+                      Writer
                     </p>
-                    <p>
+                    <p className="mb-0">
                       <strong>Location: </strong> Troy, MI
                     </p>
                     <p>
@@ -423,10 +427,10 @@ function Samples() {
 
                   <article>
                     <h3>Vultron Inc.</h3>
-                    <p>
+                    <p className="mb-0">
                       <strong>Position: </strong> Technical Writer
                     </p>
-                    <p>
+                    <p className="mb-0">
                       <strong>Location: </strong> Rochester Hills, MI
                     </p>
                     <p>
@@ -454,10 +458,10 @@ function Samples() {
 
                   <article>
                     <h3>EDS/GM Medium Duty Truck Engineering Group</h3>
-                    <p>
+                    <p className="mb-0">
                       <strong>Position: </strong> PC Consultant
                     </p>
-                    <p>
+                    <p className="mb-0">
                       <strong>Location: </strong> Pontiac, MI
                     </p>
                     <p>
@@ -484,11 +488,11 @@ function Samples() {
 
                   <article>
                     <h3>EDS/GM Powertrain</h3>
-                    <p>
+                    <p className="mb-0">
                       <strong>Position: </strong> PC Support - File Transfer
                       (through the ADIA Employment agency)
                     </p>
-                    <p>
+                    <p className="mb-0">
                       <strong>Location: </strong> Pontiac, MI
                     </p>
                     <p>
@@ -511,7 +515,7 @@ function Samples() {
 
                   <article>
                     <h3>TranspareX Corp - Cuvërd application</h3>
-                    <p>
+                    <p className="mb-0">
                       <strong>Position: </strong> UX/UI Designer/Developer
                     </p>
                     <p>
