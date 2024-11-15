@@ -64,26 +64,26 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-family: "Didact Gothic", serif; */
+  font-family: "DM Sans", serif;
 }
 h1 {
   margin: 0 0 5px;
   display: flex;
   justify-content: flex-start;
-  /* font-family: "Didact Gothic", serif; */
+  font-family: "DM Sans", serif;
 }
 
 h2 {
   display: flex;
   justify-content: flex-start;
   margin: 0 0 10px;
-  /* font-family: "Didact Gothic", serif; */
+  font-family: "DM Sans", serif;
 }
 
 h3 {
   margin: 0 0 5px;
   display: flex;
-  /* font-family: "Didact Gothic", serif; */
+  font-family: "DM Sans", serif;
 }
 
 h5,
