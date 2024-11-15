@@ -29,7 +29,7 @@ function Samples() {
                     <p><strong>Duration: </strong> July 2023 - November 2024</p>
                     <ul>
                       <li>Presented new feature concepts to C-Level employees</li>
-                      <li>Served as SME for accessibility</li>
+                      <li>Served as SME for accessibility, ensuring ADA / WCAG / Section 508 compliance</li>
                       <li>Built multiple style guides POCs with Angular and Ionic Framework</li>
                       <li>Worked in a development role for HTML/CSS-related work items.</li>
                       <li>Created numerous design systems and clickable prototypes in Figma</li>
@@ -64,7 +64,7 @@ function Samples() {
                       <li>Established enterprise standards for HTML/CSS/Accessibility for UI developers (DDMI).</li>
                       <li>Collaborated with sales on statements of work and mobile app development consulting.</li>
                       <li>Led UX/UI council, created accessibility practices, and managed UI/UX teams (DDMI).</li>
-                      <li>Ensured DDMI applications met ADA, branding, and marketing standards.</li>
+                      <li>Ensured DDMI applications met ADA, branding, and marketing standards, including WCAG and Section 508 compliance.</li>
                       <li>Gathered user feedback to wireframe and improve ideas (Lansing BWL).</li>
                       <li>Redesigned Power BI executive dashboards (Lansing BWL).</li>
                       <li>Developed annotated wireframes and visual style guides (ONU One, DDMI).</li>
