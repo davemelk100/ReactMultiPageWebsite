@@ -19,7 +19,7 @@ function Samples() {
               </div>
               <div className="col-lg-10 d-flex align-items-center">
                 <p className="small mb-0">
-                  <a className="d-flex" href={resumepdf} download>
+                  <a className="d-flex hyper" href={resumepdf} download>
                     Download
                   </a>
                 </p>

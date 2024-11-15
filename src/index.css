@@ -3898,6 +3898,10 @@ small {
   align-items: center;
 }
 
+.hyper {
+  text-decoration: underline;
+}
+
 @media (min-width: 992px) {
   .navbar-nav,
   .navigation {
