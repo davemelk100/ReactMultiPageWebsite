@@ -292,14 +292,6 @@ function Samples() {
                         application
                       </li>
                       <li>
-                        Collaborated with product owner to bring the app vision
-                        to life
-                      </li>
-                      <li>
-                        Worked with product owner to build a user experience
-                        that will be the product's differentiator
-                      </li>
-                      <li>
                         Built demos to be presented to board members and
                         financial backers
                       </li>
