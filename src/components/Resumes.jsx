@@ -45,8 +45,8 @@ function Samples() {
                       <li>Built multiple style guides POCs with Angular and Ionic Framework</li>
                       <li>Built out iconography and typesetting guidelines and assets in a design system</li>
                       <li>Worked in a development role writing HTML / CSS / Typescript</li>
-                      <li>Created numerous design systems and clickable prototypes in Figma</li>
-                      <li>Created the UX and design for a live transcription feature using OpenAI</li>
+                      <li>Created numerous design systems, interaction designs, and clickable prototypes in Figma</li>
+                      <li>Created the UX and design for a live transcription feature using OpenAI / Generative AI</li>
                       <li>Designed and coded a solution to prioritize higher performant call quality options</li>
                       <li>Improved accessibility on video call application from 78% to 98%</li>
                       <li>Designed integration look and flow for electronic healthcare record (EHR) transmissions</li>
@@ -67,19 +67,17 @@ function Samples() {
                       <strong>Duration: </strong> May 2016 - July 2023
                     </p>
                     <ul>
-                      <li>Led Agile development for a SaaS project (DDMI), implementing SDLC and Agile processes.</li>
                       <li>Filled multiple roles—scrum master, developer, product owner—within Agile teams (DDMI).</li>
                       <li>Facilitated stakeholder focus groups to gather requirements (Lansing BWL).</li>
                       <li>Proposed UX strategy for a 3D software product (ONU One).</li>
-                      <li>Provided consulting and integration expertise for third-party software (Dewpoint/DDMI).</li>
-                      <li>Established enterprise standards for HTML/CSS/Accessibility for UI developers (DDMI).</li>
                       <li>Led UX/UI council, created accessibility practices, and managed UI/UX teams (DDMI).</li>
                       <li>Ensured DDMI applications met WCAG / Section 508 standards.</li>
                       <li>Redesigned Power BI executive dashboards (Lansing BWL).</li>
-                      <li>Developed annotated wireframes and visual style guides (ONU One, DDMI).</li>
+                      <li>Developed annotated wireframes, interaction designs, and visual style guides (ONU One, DDMI).</li>
                       <li>Created custom shopping experiences in Magnolia CMS using Freemarker templates (DDMI).</li>
                       <li>Converted Sketch files to HTML/CSS/Angular comps (DDMI).</li>
                     </ul>
+
                   </article>
 
                   <article>
