@@ -4,11 +4,6 @@ import compthree from "./compthree.png";
 import compfour from "./compfour.png";
 import compfive from "./compfive.png";
 import compsix from "./compsix.png";
-// import renshopping from './renshopping.png';
-// import renlogin from './renlogin.png';
-// import deltaportal from './deltaportal.png';
-// import deltaportaltwo from './deltaportaltwo.png';
-// import deltaportalthree from './delta-search.png';
 import deltaportalsq from "./delta-portal-sq.png";
 import renportalsq from "./ren-portal-sq.png";
 import wireone from "./wireone.jpg";
@@ -39,14 +34,9 @@ import powerbi from "./powerbi.png";
 import powerbione from "./powerbione.png";
 import powerbitwo from "./powerbitwo.png";
 import onuplan from "./onu-one-uxui-plan.pdf";
-// import lansingone from './lansing-promise-comp-3.png'
-// import lansingtwo from './lansing-promise-comp-2.png'
 import lansingtop from "./lansing-1.png";
 import lansingbottom from "./lansing-2.png";
 import videoconf from "./remote-int.pdf";
-// import artprizesearch from './artprizesearch.png';
-// import artprizevenue from './artprizevenue.png';
-// import artprizevenuesq from './art-prize-venue.png';
 import deltasearch from "./delta-search.png";
 import rxappone from "./rxapp.png";
 import rxapptwo from "./rxapp2.png";
@@ -63,11 +53,9 @@ function Samples() {
         <div className="row my-3">
           <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
             <div className="row samples-top">
-              <div className="col-lg-2">
+              <div className="col-lg-12">
                 {/* <Person /> */}
-                <h2 className="p-0 m-0 page-title">Samples</h2>
-              </div>
-              <div className="col-lg-10">
+                <h2 className="pb-2 m-0 page-title">Samples</h2>
                 <p className="small mb-0">
                   <strong>Please note: </strong>There are many more samples I'm
                   not able to share per Non-disclosure and Confidentiality
