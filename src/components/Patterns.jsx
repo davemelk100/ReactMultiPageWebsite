@@ -1,5 +1,4 @@
 import React from "react";
-import profileImage from "./dm-periodic.svg";
 import dsone from "./ds1.png";
 import dstwo from "./ds2.png";
 import dsthree from "./ds3.png";
