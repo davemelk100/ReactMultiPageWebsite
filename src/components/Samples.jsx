@@ -270,11 +270,10 @@ function Samples() {
                     </li>
                     <li className="mb-1">
                       Converted the proto.io concept application to
-                      HTML/CSS/JavaScript for handoff to app developers
+                      HTML/CSS/JavaScript for handoff to developers
                     </li>
                 </ul>
               </div>
-
               <div className="col-lg-12 p-4">
               <img
                     className="grow sample-img-tall"
@@ -287,7 +286,6 @@ function Samples() {
                     alt="rx app 2"
                   />
               </div>
-
 
 
 
