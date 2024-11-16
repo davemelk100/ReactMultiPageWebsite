@@ -40,15 +40,12 @@ import videoconf from "./remote-int.pdf";
 import deltasearch from "./delta-search.png";
 import rxappone from "./rxapp.png";
 import rxapptwo from "./rxapp2.png";
+import Background from "./Background";
 
 function Samples() {
   return (
     <div className="home">
-      <img
-        className="img-art-two position-fixed"
-        src={recordtwo}
-        alt="artwork"
-      />
+        <Background />
       <div className="container" id="content">
         <div className="row my-3">
           <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
@@ -105,24 +102,7 @@ function Samples() {
                 </ul>
               </div>
 
-              {/* 
-                <div className="col-lg-6 mt-5 d-flex flex-column">
-                <small className="mb-0">project</small>
-                <p className="h5">CONFIDENTIAL</p><br />
-                <small className="mb-0">role</small>
-                <p className="mb-2">UX/UI Developer</p><br />
-                <small className="mb-0">contributions</small>
-                <ul className="mb-2 pt-0 pb-1 py-0">
-                  <li className="mb-1">Built out resdesign concept for a customer service application</li>
-                  <li className="mb-1">Created the comps using a combination of HTML, CSS, TS, JS, and Figma</li>
-                </ul>
-              </div>
-             
-              <div className="col-lg-6 p-4">
-                <img className="grow sample-img" src={lansingone} alt="artwork" />
-                <img className="grow sample-img" src={lansingtwo} alt="artwork" />
-                <img className="grow sample-img" src={lansingthree} alt="artwork" />
-              </div> */}
+
 
               <div className="col-lg-12 p-4">
                 <small className="mb-2">project</small>
@@ -171,13 +151,11 @@ function Samples() {
                   src={deltaportalsq}
                   alt="login page for one customer"
                 />
-                {/* <img className="grow sample-img" src={deltaportalthree} alt="login page for one customer" /> */}
                 <img
                   className="grow sample-img"
                   src={deltasearch}
                   alt="clever search idea"
                 />
-                {/* <img className="grow sample-img" src={renshopping} alt="login page for another customer" /> */}
               </div>
 
               <div className="col-lg-12 mt-5 d-flex flex-column">
@@ -214,13 +192,11 @@ function Samples() {
               </div>
 
               <div className="col-lg-12 mt-2">
-                {/* <img className="grow sample-img" src={deltaportaltwo} alt="artwork" /> */}
                 <img
                   className="grow sample-img"
                   src={deltaportalsq}
                   alt="portal login"
                 />
-                {/* <img className="grow sample-img" src={renlogin} alt="portal login diff" /> */}
                 <img
                   className="grow sample-img"
                   src={renportalsq}
@@ -253,8 +229,6 @@ function Samples() {
               </div>
 
               <div className="col-lg-12 p-4">
-                {/* <img className="grow sample-img" src={lansingone} alt="artwork" />
-                <img className="grow sample-img" src={lansingtwo} alt="artwork" /> */}
                 <img
                   className="grow sample-img"
                   src={lansingtop}
@@ -267,35 +241,58 @@ function Samples() {
                 />
               </div>
 
-              {/*  
 
-              <div className="col-lg-6 mt-5 d-flex flex-column">
+
+              <div className="col-lg-12 mt-5 py-3 d-flex flex-column">
                 <small className="mb-0">project</small>
-                <p className="h5">ArtPrize</p><br />
+                <p className="h5">Cuverd Prescription Drug mobile application</p>
+                <br />
                 <small className="mb-0">role</small>
-                <p className="mb-2">Senior Application Developer</p><br />
+                <p className="mb-0">UX/UI Designer and Developer</p>
+                <br />
                 <small className="mb-0">contributions</small>
                 <ul className="mb-2 pt-0 pb-1 py-0">
-                  <li className="mb-1">Created responsive front end for a .NET application with Razor templates</li>
-                  <li className="mb-1">Collaborated with creative team to implement the design</li>
-                  <li className="mb-1">Interpreted wireframes to illustrate workflow</li>
-                  <li className="mb-1">Created working prototype of an Umbraco CMS</li>
-                  <li className="mb-1">Implemented a carousel mechanism to prominently display the artists' work</li>
-                  <li className="mb-1">Built a Masonry layout for search results</li>
-                  <li className="mb-1">Designed and built a banner and edit button treatment for all editing pages</li>
-                  <li className="mb-1">Created style and layout for admin pages, confirmation messages, and alerts</li>
-                  <li className="mb-1">Maintained a design system including all controls and typography</li>
+                <li className="mb-1">
+                      Created functional prototype using proto.io for mobile
+                      application
+                    </li>
+                    <li className="mb-1">
+                      Collaborated with product owner to bring the app vision to
+                      life
+                    </li>
+                    <li className="mb-1">
+                      Worked with product owner to build a user experience that
+                      will be the product's differentiator
+                    </li>
+                    <li className="mb-1">
+                      Built demos to be presented to board members and financial
+                      backers
+                    </li>
+                    <li className="mb-1">
+                      Converted the proto.io concept application to
+                      HTML/CSS/JavaScript for handoff to app developers
+                    </li>
                 </ul>
               </div>
 
-              <div className="col-lg-6 p-4">
-                <img className="grow sample-img" src={artprizesearch} alt="artwork" />
-                <img className="grow sample-img" src={artprizevenue} alt="artwork" />
-                <img className="grow sample-img" src={artprizevenuesq} alt="artwork" />
+              <div className="col-lg-12 p-4">
+              <img
+                    className="grow sample-img-tall"
+                    src={rxappone}
+                    alt="rx app 1"
+                  />
+                  <img
+                    className="grow sample-img-tall"
+                    src={rxapptwo}
+                    alt="rx app 2"
+                  />
               </div>
- */}
 
-              <div className="col-lg-12 d-flex mt-5">
+
+
+
+
+              {/* <div className="col-lg-12 d-flex mt-5">
                 <div className="col-lg-6 mt-2 d-flex flex-column">
                   <small className="mb-0">project</small>
                   <p className="h5">
@@ -342,7 +339,7 @@ function Samples() {
                     alt="rx app 2"
                   />
                 </div>
-              </div>
+              </div> */}
 
               <div className="col-lg-12">
                 <div className="row my-5 mx-1 pb-5 d-flex">

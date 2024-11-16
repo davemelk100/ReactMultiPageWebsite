@@ -1,14 +1,10 @@
 import React from "react";
-import recordtwo from "./stripes.png";
+import Background from "./Background";
 
 function Skills() {
   return (
     <div className="home">
-      <img
-        className="img-art-two position-fixed"
-        src={recordtwo}
-        alt="vinyl artwork"
-      />
+      <Background />
       <div className="container" id="content">
         <div className="row my-3">
           <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">

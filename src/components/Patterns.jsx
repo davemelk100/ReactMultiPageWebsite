@@ -1,5 +1,5 @@
 import React from "react";
-import recordtwo from "./stripes.png";
+import profileImage from "./dm-periodic.svg";
 import dsone from "./ds1.png";
 import dstwo from "./ds2.png";
 import dsthree from "./ds3.png";
@@ -13,15 +13,12 @@ import dsten from "./ds10.png";
 import dseleven from "./ds11.png";
 import dstwelve from "./ds12.png";
 import dsthirteen from "./ds13.png";
+import Background from "./Background";
 
 function Patterns() {
   return (
     <div className="home">
-      <img
-        className="img-art-two position-fixed"
-        src={recordtwo}
-        alt="artwork"
-      />
+       <Background />
       <div className="container" id="content">
         <div className="row my-3">
           <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">

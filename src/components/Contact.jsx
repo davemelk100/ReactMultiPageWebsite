@@ -1,14 +1,10 @@
 import React from "react";
-import recordthree from "./vinyldots.png";
-
+import Background from "./Background";
+  
 function Contact() {
   return (
     <div className="home">
-      <img
-        className="img-art-two position-fixed"
-        src={recordthree}
-        alt="artwork"
-      />
+       <Background />
       <div className="container" id="content">
         <div className="row my-3">
           <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">

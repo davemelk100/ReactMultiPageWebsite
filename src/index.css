@@ -18,6 +18,7 @@ body {
   -o-animation: fadein 2s;
 }
 
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -243,11 +244,10 @@ a {
 }
 
 .img-art-two {
-  opacity: 0.25;
   position: absolute;
-  right: 0;
-  width: 37%;
-  height: auto;
+  left: 10px;
+  top: 10px;
+  z-index: 4000 ;
 }
 .design-system-img {
   width: 100%;
@@ -602,11 +602,11 @@ input[type="submit"] {
 
 p {
   margin: 0 0 15px 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 ul li {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 a {
@@ -3785,7 +3785,6 @@ small {
 }
 
 .iframe-div {
-  justify-content: center;
   display: flex;
 }
 
@@ -3885,6 +3884,8 @@ small {
   align-items: center;
 }
 
+
+
 .samples-top {
   display: flex;
   align-items: center;
@@ -3907,6 +3908,23 @@ small {
   width: 100%;
 }
 
+.logo-body {
+  position: static;
+}
+
+/* .header-wrapper {
+  display: none;
+  text-align: center;
+}  
+
+@media (min-width: 992px) {
+  .header-wrapper {
+    display: flex;
+    justify-content: center;
+  }  
+} */
+
+
 @media (min-width: 992px) {
   .navbar-nav,
   .navigation {
@@ -3915,10 +3933,12 @@ small {
     width: 100%;
     justify-content: center;
   }
+
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 960px;
   }
+  
 }

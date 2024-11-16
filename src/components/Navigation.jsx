@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <header className="navigation sticky-header">
       <div className="row">
-        <div className="col-12 text-center">
+        <div className="col-12 text-center header-wrapper">
           <h1 className="header-title">David Melkonian</h1>
         </div>
 
