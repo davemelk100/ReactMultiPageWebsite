@@ -69,10 +69,10 @@ function Samples() {
               </div>
               <div className="col-lg-10">
                 <p className="small mb-0">
-                    <strong>Please note: </strong>There are many more samples I'm
-                    not able to share per Non-disclosure and Confidentiality
-                    agreements.
-                  </p>
+                  <strong>Please note: </strong>There are many more samples I'm
+                  not able to share per Non-disclosure and Confidentiality
+                  agreements.
+                </p>
               </div>
             </div>
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
@@ -240,12 +240,12 @@ function Samples() {
                 />
               </div>
 
-              <div className="col-lg-12 mt-2 d-flex flex-column">
+              <div className="col-lg-12 mt-5 py-3 d-flex flex-column">
                 <small className="mb-0">project</small>
                 <p className="h5">Lansing Promise app</p>
                 <br />
                 <small className="mb-0">role</small>
-                <p className="mb-2">UX/UI Consultant</p>
+                <p className="mb-0">UX/UI Consultant</p>
                 <br />
                 <small className="mb-0">contributions</small>
                 <ul className="mb-2 pt-0 pb-1 py-0">
@@ -307,7 +307,7 @@ function Samples() {
               </div>
  */}
 
-              <div className="col-lg-12 d-flex">
+              <div className="col-lg-12 d-flex mt-5">
                 <div className="col-lg-6 mt-2 d-flex flex-column">
                   <small className="mb-0">project</small>
                   <p className="h5">
@@ -315,7 +315,7 @@ function Samples() {
                   </p>
                   <br />
                   <small className="mb-0">role</small>
-                  <p className="mb-2">UX/UI Designer and Developer</p>
+                  <p>UX/UI Designer and Developer</p>
                   <br />
                   <small className="mb-0">contributions</small>
                   <ul className="mb-2 pt-0 pb-1 py-0">

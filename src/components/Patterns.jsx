@@ -33,7 +33,6 @@ function Patterns() {
             </div>
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card mb-3">
-                <h3 className="mb-0 p-0">Patterns</h3>
                 <p className="text-dark font-weight-normal">
                   I hand-coded the HTML/CSS for this SaaS design system /
                   pattern library as designed by a design agency.

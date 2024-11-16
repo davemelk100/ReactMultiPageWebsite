@@ -105,8 +105,7 @@ function Samples() {
                       </li>
                       <li>Designed multiple dashboards</li>
                       <li>
-                        Coordinated a large platform analytics UI feature
-                        deployment across multiple teams and work streams
+                        Did technical and UX writing, in addition to PRDs, Jira tickets, and release notes
                       </li>
                     </ul>
                   </article>

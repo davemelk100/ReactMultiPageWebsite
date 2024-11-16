@@ -7,10 +7,6 @@ function Navigation() {
       <div className="row">
         <div className="col-12 text-center">
           <h1 className="header-title">David Melkonian</h1>
-          <span> - </span>
-          <h2 className="header-second-title">
-            User Experience Development and Design Professional
-          </h2>
         </div>
 
         <div className="col-12">

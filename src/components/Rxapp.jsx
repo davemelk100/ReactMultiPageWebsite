@@ -21,9 +21,6 @@ function Rxapp() {
               </div>
             </div>
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
-              <div className="col-lg-12 text-card">
-                <h3 className="mb-1">Clickable Prototype</h3>
-              </div>
               <div className="col-lg-12 iframe-div">
                 <iframe
                   width="420"
