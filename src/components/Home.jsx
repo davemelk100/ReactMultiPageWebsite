@@ -1,12 +1,10 @@
 import React from "react";
-// import Background from "./Background";
+import Background from "./Background";
 
 function Home() {
   return (
     <div className="home">
-      {/* <div className="background-center">
         <Background />
-      </div> */}
       <div className="container" id="content">
         <div className="row my-3">
           <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">

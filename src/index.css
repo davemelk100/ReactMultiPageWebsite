@@ -9,7 +9,7 @@ body {
   font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   background-color: #ffffff;
-  color: black;
+  color: #171219;
   font-size: 18px;
   position: relative;
   animation: fadein 2s;
@@ -66,6 +66,7 @@ h4,
 h5,
 h6 {
   font-family: "DM Sans", serif;
+  color: #3c3c3c;
 }
 h1 {
   margin: 0 0 5px;
@@ -244,12 +245,13 @@ a {
 }
 
 .img-art-two {
-  /* position: absolute;
-  opacity: .25; */
-  height: 20%;
+  height: 13%;
   width: auto;
-  opacity: 0.1;
-  margin: 15px 0 0 35px;
+  opacity: 0.25;
+  margin: 0;
+  left: 45%;
+  top: 1.5%;
+  z-index: 5000;
 }
 .design-system-img {
   width: 100%;
@@ -300,7 +302,7 @@ a {
 }
 
 .text-card h3 {
-  color: black;
+  color: #421820;
   text-shadow: none;
 }
 .text-card a {
@@ -3784,6 +3786,7 @@ small {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
+  color: #FF5A5F;
 }
 
 .iframe-div {
@@ -3872,7 +3875,7 @@ small {
 }
 
 .navbar-collapse {
-  background: white;
+  background: transparent;
 }
 
 .header-title,
@@ -3896,10 +3899,10 @@ small {
 .sticky-header {
   position: sticky;
   top: 0;
-  z-index: 1020; /* Ensures it stays above most other elements */
-  background-color: white; /* Ensure it's not transparent when sticky */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for visibility */
-  border-bottom: 1px solid #ddd; /* Optional border for separation */
+  z-index: 1020;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ddd;
 }
 
 .top-nav {
@@ -3933,6 +3936,7 @@ small {
     display: -ms-flexbox !important;
     display: flex !important;
     width: 100%;
+    height: 127px;
   }
 
 }

@@ -44,11 +44,11 @@ function Navigation() {
                     Prototype
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <NavLink className="nav-link" to="/patterns">
                     Patterns
                   </NavLink>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/skills">
                     Skills
