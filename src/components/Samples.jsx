@@ -286,7 +286,7 @@ function Samples() {
                 />
               </div>
 
-              <div className="col-lg-12 d-flex mt-5">
+              {/* <div className="col-lg-12 d-flex mt-5">
                 <div className="col-lg-6 mt-2 d-flex flex-column">
                   <small className="mb-0">project</small>
                   <p className="h5">
@@ -333,7 +333,7 @@ function Samples() {
                     alt="rx app 2"
                   />
                 </div>
-              </div>
+              </div> */}
 
               <div className="col-lg-12">
                 <div className="row my-5 mx-1 pb-5 d-flex">
