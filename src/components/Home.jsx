@@ -14,10 +14,10 @@ function Home() {
               </div>
             </div>
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
-              <div className="col-lg-12 text-card mx-3">
+              <div className="col-lg-12 text-card">
                 <h3 className="my-3 p-0">Professional Summary</h3>
               </div>
-              <div className="col-lg-12 px-4">
+              <div className="col-lg-12">
                 <section className="professional-summary">
                   <p>
                     With a diverse background in enterprise software delivery,
