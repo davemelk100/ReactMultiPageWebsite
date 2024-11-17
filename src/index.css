@@ -250,7 +250,7 @@ a {
   opacity: 0.25;
   margin: 0;
   left: 2%;
-  top: 9%;
+  top: 14%;
   z-index: 5000;
 }
 .design-system-img {
@@ -3789,8 +3789,12 @@ small {
   color: #FF5A5F;
 }
 
+.iframe {
+  border: none;
+}
 .iframe-div {
   display: flex;
+  justify-content: center;
 }
 
 .navbar,
