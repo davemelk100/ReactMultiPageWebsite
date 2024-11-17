@@ -17,10 +17,10 @@ import Background from "./Background";
 function Patterns() {
   return (
     <div className="home">
-       <Background />
+      <Background />
       <div className="container" id="content">
         <div className="row my-3">
-          <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
+          <div className="col-lg-12 mx-0 p-4">
             <div className="row">
               <div className="col-lg-12 mb-0">
                 {/* <Person /> */}

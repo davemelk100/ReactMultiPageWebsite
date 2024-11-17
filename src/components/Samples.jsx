@@ -45,10 +45,10 @@ import Background from "./Background";
 function Samples() {
   return (
     <div className="home">
-        <Background />
+      <Background />
       <div className="container" id="content">
         <div className="row my-3">
-          <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
+          <div className="col-lg-12 mx-0 p-4">
             <div className="row samples-top">
               <div className="col-lg-12">
                 {/* <Person /> */}
@@ -101,8 +101,6 @@ function Samples() {
                   </li>
                 </ul>
               </div>
-
-
 
               <div className="col-lg-12 p-4">
                 <small className="mb-2">project</small>
@@ -241,56 +239,52 @@ function Samples() {
                 />
               </div>
 
-
-
               <div className="col-lg-12 mt-5 py-3 d-flex flex-column">
                 <small className="mb-0">project</small>
-                <p className="h5">Cuverd Prescription Drug mobile application</p>
+                <p className="h5">
+                  Cuverd Prescription Drug mobile application
+                </p>
                 <br />
                 <small className="mb-0">role</small>
                 <p className="mb-0">UX/UI Designer and Developer</p>
                 <br />
                 <small className="mb-0">contributions</small>
                 <ul className="mb-2 pt-0 pb-1 py-0">
-                <li className="mb-1">
-                      Created functional prototype using proto.io for mobile
-                      application
-                    </li>
-                    <li className="mb-1">
-                      Collaborated with product owner to bring the app vision to
-                      life
-                    </li>
-                    <li className="mb-1">
-                      Worked with product owner to build a user experience that
-                      will be the product's differentiator
-                    </li>
-                    <li className="mb-1">
-                      Built demos to be presented to board members and financial
-                      backers
-                    </li>
-                    <li className="mb-1">
-                      Converted the proto.io concept application to
-                      HTML/CSS/JavaScript for handoff to app developers
-                    </li>
+                  <li className="mb-1">
+                    Created functional prototype using proto.io for mobile
+                    application
+                  </li>
+                  <li className="mb-1">
+                    Collaborated with product owner to bring the app vision to
+                    life
+                  </li>
+                  <li className="mb-1">
+                    Worked with product owner to build a user experience that
+                    will be the product's differentiator
+                  </li>
+                  <li className="mb-1">
+                    Built demos to be presented to board members and financial
+                    backers
+                  </li>
+                  <li className="mb-1">
+                    Converted the proto.io concept application to
+                    HTML/CSS/JavaScript for handoff to app developers
+                  </li>
                 </ul>
               </div>
 
               <div className="col-lg-12 p-4">
-              <img
-                    className="grow sample-img-tall"
-                    src={rxappone}
-                    alt="rx app 1"
-                  />
-                  <img
-                    className="grow sample-img-tall"
-                    src={rxapptwo}
-                    alt="rx app 2"
-                  />
+                <img
+                  className="grow sample-img-tall"
+                  src={rxappone}
+                  alt="rx app 1"
+                />
+                <img
+                  className="grow sample-img-tall"
+                  src={rxapptwo}
+                  alt="rx app 2"
+                />
               </div>
-
-
-
-
 
               <div className="col-lg-12 d-flex mt-5">
                 <div className="col-lg-6 mt-2 d-flex flex-column">

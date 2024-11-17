@@ -6,7 +6,7 @@ function Navigation() {
     <header className="navigation sticky-header">
       <div className="row w-100">
         <div className="col-6 pt-2 pb-0 pl-0 pr-0 m-0">
-          <h1 className="header-title">David Melkonian</h1>
+          <h1 className="header-title">David Melkonian - Senior UX / UI Professional</h1>
         </div>
 
         <div className="col-6 justify-content-end">

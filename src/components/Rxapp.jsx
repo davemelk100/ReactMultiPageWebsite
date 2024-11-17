@@ -7,7 +7,7 @@ function Rxapp() {
       <Background />
       <div className="container" id="content">
         <div className="row my-3">
-          <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
+          <div className="col-lg-12 mx-0 p-4">
             <div className="row">
               <div className="col-lg-12 mb-0">
                 <h2 className="col-lg-12 p-0 mb-0 page-title">
