@@ -244,10 +244,14 @@ a {
 }
 
 .img-art-two {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  z-index: 4000 ;
+  /* position: absolute;
+  left: 50%;
+  top: 0;
+  opacity: .25; */
+  height: 20%;
+  width: auto;
+  opacity: 0.1;
+  margin: 15px 0 0 35px;
 }
 .design-system-img {
   width: 100%;
@@ -3788,14 +3792,10 @@ small {
   display: flex;
 }
 
+.navbar,
 .navbar-nav,
 .navigation {
-  justify-content: center;
-  padding: 10px 0;
-}
-
-.navbar {
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .navigation {
@@ -3912,17 +3912,21 @@ small {
   position: static;
 }
 
-/* .header-wrapper {
-  display: none;
-  text-align: center;
-}  
+.background-center {
+  height: 100vh; /* Full viewport height */
+  background-image: url('./components/dm-periodic.svg'); /* Replace with your image path */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the image static during scroll */
+}
 
-@media (min-width: 992px) {
-  .header-wrapper {
-    display: flex;
-    justify-content: center;
-  }  
-} */
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
 
 
 @media (min-width: 992px) {
@@ -3931,7 +3935,6 @@ small {
     display: -ms-flexbox !important;
     display: flex !important;
     width: 100%;
-    justify-content: center;
   }
 
 }

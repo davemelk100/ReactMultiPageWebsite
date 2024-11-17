@@ -4,13 +4,13 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
   return (
     <header className="navigation sticky-header">
-      <div className="row">
-        <div className="col-12 text-center header-wrapper">
+      <div className="row w-100">
+        <div className="col-6 pt-2 pb-0 pl-0 pr-0 m-0">
           <h1 className="header-title">David Melkonian</h1>
         </div>
 
-        <div className="col-12">
-          <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div className="col-6 justify-content-end">
+          <nav className="navbar navbar-expand-md navbar-light bg-transparent">
             <button
               className="navbar-toggler mb-2"
               type="button"
