@@ -245,13 +245,20 @@ a {
 }
 
 .img-art-two {
+  /* height: 100px;
+  width: auto;
+  margin: 0;
+  right: 2%;
+  bottom: 6%;
+  z-index: 5000; */
+
   height: 100px;
   width: auto;
-  /* opacity: 0.25; */
   margin: 0;
-  left: 2%;
-  bottom: 6%;
-  z-index: 5000;
+  left: 45px;
+  top: 25px;
+  z-index: 500;
+
 }
 .design-system-img {
   width: 100%;
@@ -3924,11 +3931,22 @@ iframe {
 }
 
 .h1-wrapper {
-  background: #ff5a5f;
+  background: transparent;
   padding: 10px;
+  /*border: 1px solid #1c77c3;
+   border-left: none; */
+  color: #1c77c3;
+  display: flex;
 
   h1 {
-    color: white;
+    color: #1c77c3;
+    display: flex;
+    width: 100%;
+  }
+
+  p {
+    width: 100%;
+    display: flex;
   }
 
 }

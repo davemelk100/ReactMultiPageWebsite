@@ -1,17 +1,24 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+// import Background from "./Background";
+import dmLogo from './dm-periodic.svg';
 
 function Navigation() {
   return (
     <header className="navigation sticky-header">
-      <div className="row w-100">
-        <div className="col-5 m-0 h1-wrapper">
-          <h1 className="header-title p-0 m-0">
-            David Melkonian - Senior UX / UI Professional
+      {/* <div className="col-2">
+        <img src={dmLogo} alt="dave m logo" />
+      </div> */}
+      
+      <div className="row w-100"> 
+        <div className="col-4 m-0 h1-wrapper">
+        <img src={dmLogo} className="mr-3" alt="dave m logo" />
+          <h1 className="header-title p-0 m-0 mr-4 d-none d-sm-flex">
+            David Melkonian
           </h1>
         </div>
 
-        <div className="col-6 justify-content-end">
+        <div className="col-8 justify-content-end d-flex">
           <nav className="navbar navbar-expand-md navbar-light bg-transparent">
             <button
               className="navbar-toggler mb-2"
