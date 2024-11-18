@@ -6,7 +6,9 @@ function Navigation() {
     <header className="navigation sticky-header">
       <div className="row w-100">
         <div className="col-5 m-0 h1-wrapper">
-          <h1 className="header-title p-0 m-0">David Melkonian - Senior UX / UI Professional</h1>
+          <h1 className="header-title p-0 m-0">
+            David Melkonian - Senior UX / UI Professional
+          </h1>
         </div>
 
         <div className="col-6 justify-content-end">
@@ -60,7 +62,9 @@ function Navigation() {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/contact"
+                  <NavLink
+                    className="nav-link"
+                    to="/contact"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
                   >

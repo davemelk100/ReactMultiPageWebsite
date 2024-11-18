@@ -10,10 +10,10 @@ function Samples() {
         <div className="row my-3">
           <div className="col-lg-12 mx-0 p-4">
             <div className="row">
-              <div className="col-lg-2">
-                <h2 className="p-0 m-0 page-title">Resume</h2>
+              <div className="col-lg-12">
+                <h2 className="p-0 mb-2 page-title">Resume</h2>
               </div>
-              <div className="col-lg-10 d-flex align-items-center">
+              <div className="col-lg-12 d-flex align-items-center">
                 <p className="small mb-0">
                   <a className="d-flex hyper" href={resumepdf} download>
                     Download
