@@ -13,7 +13,7 @@ function Navigation() {
       <div className="row w-100">
         <div className="col-4 m-0 h1-wrapper">
           <img src={dmLogo} className="mh-100 h-100 mr-3" alt="dave m logo" />
-          <h1 className="header-title p-0 m-0 mr-4 d-none d-sm-flex">
+          <h1 className="header-title p-0 m-0 mr-4">
             David Melkonian
           </h1>
         </div>
