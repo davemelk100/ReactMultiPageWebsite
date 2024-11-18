@@ -5,14 +5,57 @@ function Home() {
   return (
     <div className="home">
       <Background />
-      <div className="container" id="content">
-        <div className="row my-3">
-          <div className="col-lg-12 mx-0 p-4">
-            <div className="row">
-              <div className="col-lg-12 mb-0">
-                <h2 className="col-lg-12 p-0 mb-0 page-title">Home</h2>
+      <div className="container-mine" id="content">
+        <div className="row my-3 justify-content-between d-flex flex-md-row flex-column">
+          <div className="col-12 col-md-2 d-flex align-items-center">
+            <div className="squill-wrapper">
+              <div className="squill">
+                <p className="squinitial">Ld</p>
+                <p>Leadership</p>
+              </div>
+              <div className="squill">
+                <p className="squinitial">Fg</p>
+                <p>Figma</p>
+              </div>
+              <div className="squill">
+                <p className="squinitial">Ps</p>
+                <p>Photoshop</p>
+              </div>
+              <div className="squill">
+                <p className="squinitial">Ts</p>
+                <p>Typescript</p>
+              </div>
+              <div className="squill">
+                <p className="squinitial">UX</p>
+                <p>Experience</p>
+              </div>
+              <div className="squill">
+                <p className="squinitial">UI</p>
+                <p>Interface</p>
+              </div>
+              <div className="squill">
+                <p className="squinitial">Ag</p>
+                <p>Agile</p>
+              </div>
+              <div className="squill">
+                <p className="squinitial">Html</p>
+                <p>Markup</p>
+              </div>
+              <div className="squill">
+                <p className="squinitial">Css</p>
+                <p>Stylesheets</p>
+              </div>
+              <div className="squill">
+                <p className="squinitial">A11y</p>
+                <p>Accessibility</p>
               </div>
             </div>
+          </div>
+
+          <div className="col-12 col-lg-10 main-body">
+
+            <h2 className="col-lg-12 p-0 mb-0 page-title">Home</h2>
+
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card p-0">
                 <h3 className="my-3 p-0">Professional Summary</h3>

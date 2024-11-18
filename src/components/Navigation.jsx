@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 // import Background from "./Background";
-import dmLogo from './dm-periodic.svg';
+import dmLogo from "./dm-periodic.svg";
 
 function Navigation() {
   return (
@@ -9,10 +9,10 @@ function Navigation() {
       {/* <div className="col-2">
         <img src={dmLogo} alt="dave m logo" />
       </div> */}
-      
-      <div className="row w-100"> 
+
+      <div className="row w-100">
         <div className="col-4 m-0 h1-wrapper">
-        <img src={dmLogo} className="mr-3" alt="dave m logo" />
+          <img src={dmLogo} className="mh-100 h-100 mr-3" alt="dave m logo" />
           <h1 className="header-title p-0 m-0 mr-4 d-none d-sm-flex">
             David Melkonian
           </h1>
