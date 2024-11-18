@@ -173,8 +173,8 @@ nav {
 }
 #root {
   background-color: transparent;
-  min-height: 100vh;
-  height: 100vh;
+  min-height: 130vh;
+  height: 130vh;
 }
 .nav-brand-text {
   color: #1c77c3;
@@ -251,12 +251,11 @@ a {
   right: 2%;
   bottom: 6%;
   z-index: 5000; */
-
   height: 100px;
   width: auto;
   margin: 0;
   left: 45px;
-  top: 25px;
+  top: 15px;
   z-index: 500;
 
 }
@@ -1932,8 +1931,16 @@ header {
 }
 
 /* FOOTER */
-footer a {
-  color: #ffffff;
+
+footer {
+  min-height: 100px;
+  height: 100px;
+  /* background: #124980; */
+  color: white;
+}
+
+footer p {
+  color: #124980;
 }
 
 .footer-menu-col {
@@ -3814,7 +3821,7 @@ iframe {
   background: white;
   position: relative;
   width: 100%;
-  padding: 15px 20px;
+  padding: 0 20px;
 }
 
 .brand-patch {
@@ -3949,6 +3956,30 @@ iframe {
     display: flex;
   }
 
+}
+
+.fixed-bottom {
+  justify-content: flex-start;
+}
+
+.squill {
+  border: 1px solid #ededed;
+  height: 60px;
+  width: 100px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10px;
+  padding: 15px;
+
+  p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .squinitial {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 768px) {
