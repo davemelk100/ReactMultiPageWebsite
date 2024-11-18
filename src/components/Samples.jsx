@@ -61,7 +61,7 @@ function Samples() {
               </div>
             </div>
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
-              <div className="col-lg-12 d-flex">
+              <div className="col-lg-12 d-flex p-0">
                 <ul className="list-unstyled mt-4">
                   <li title="heading">
                     <small className="mb-0 p-0">sample links</small>
@@ -102,7 +102,7 @@ function Samples() {
                 </ul>
               </div>
 
-              <div className="col-lg-12 p-4">
+              <div className="col-lg-12 p-0">
                 <small className="mb-2">project</small>
                 <p className="h5">
                   Delta Dental of Michigan - Individual Shopping platform
@@ -226,7 +226,7 @@ function Samples() {
                 </ul>
               </div>
 
-              <div className="col-lg-12 p-4">
+              <div className="col-lg-12">
                 <img
                   className="grow sample-img"
                   src={lansingtop}
@@ -273,7 +273,7 @@ function Samples() {
                 </ul>
               </div>
 
-              <div className="col-lg-12 p-4">
+              <div className="col-lg-12">
                 <img
                   className="grow sample-img-tall"
                   src={rxappone}

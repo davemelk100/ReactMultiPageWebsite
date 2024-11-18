@@ -14,8 +14,8 @@ function Skills() {
                 <h2 className="col-lg-12 p-0 mb-0 page-title">Skills</h2>
               </div>
             </div>
-            <div className="row my-2 mx-1 sample-row d-flex flex-row">
-              <div className="col-lg-6">
+            <div className="row mt-4 sample-row d-flex flex-row">
+              <div className="col-lg-6 p-0">
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
