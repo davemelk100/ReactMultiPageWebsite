@@ -3996,9 +3996,7 @@ iframe {
   justify-content: flex-start;
 }
 
-.main-body {
-  padding: 3rem 5rem 0 0;
-}
+
 
 .squill-wrapper {
   position: fixed;
@@ -4007,7 +4005,7 @@ iframe {
   display: flex;
   position: fixed;
   top: 83px;
-  left: 0;
+  left: 4px;
   display: flex;
   z-index: 900;
 }
@@ -4082,6 +4080,10 @@ iframe {
   .navbar-expand-md .navbar-nav .nav-link {
     /* padding-left: 10px;
     padding-right: 10px; */
+  }
+
+  .main-body {
+    padding: 0;
   }
 }
 

@@ -7,7 +7,7 @@ function Navigation() {
     <header className="navigation sticky-header">
       <div className="row w-100 align-items-center">
         <div className="col-7 h1-wrapper d-flex align-items-center">
-          <img src={dmLogo} className="mh-100 h-100 m-1" alt="dave m logo" />
+          <img src={dmLogo} className="mh-100 h-100 mr-3 mt-1 ml-1" alt="dave m logo" />
           <h1 className="header-title">David Melkonian</h1>
         </div>
 
@@ -55,7 +55,7 @@ function Navigation() {
                     Samples
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link"
                     to="/rxapp"
@@ -67,7 +67,7 @@ function Navigation() {
                   >
                     Prototype
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link
                     className="nav-link"
