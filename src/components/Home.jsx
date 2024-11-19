@@ -7,45 +7,45 @@ function Home() {
       <Background />
       <div className="container-mine" id="content">
         <div className="row my-3 justify-content-between d-flex flex-md-row flex-column">
-          <div className="col-12 col-md-2 d-flex align-items-center">
+          <div className="col-auto d-flex align-items-center">
             <div className="squill-wrapper">
-              <div className="squill">
+              <div className="squill one">
                 <p className="squinitial">Ld</p>
                 <p>Leadership</p>
               </div>
-              <div className="squill">
+              <div className="squill two">
                 <p className="squinitial">Fg</p>
                 <p>Figma</p>
               </div>
-              <div className="squill">
+              <div className="squill three">
                 <p className="squinitial">Ps</p>
                 <p>Photoshop</p>
               </div>
-              <div className="squill">
+              {/* <div className="squill four">
                 <p className="squinitial">Ts</p>
                 <p>Typescript</p>
-              </div>
-              <div className="squill">
+              </div> */}
+              <div className="squill five">
                 <p className="squinitial">UX</p>
                 <p>Experience</p>
               </div>
-              <div className="squill">
+              <div className="squill six">
                 <p className="squinitial">UI</p>
                 <p>Interface</p>
               </div>
-              <div className="squill">
+              <div className="squill seven">
                 <p className="squinitial">Ag</p>
                 <p>Agile</p>
               </div>
-              <div className="squill">
+              <div className="squill eight">
                 <p className="squinitial">Html</p>
                 <p>Markup</p>
               </div>
-              <div className="squill">
+              <div className="squill nine">
                 <p className="squinitial">Css</p>
                 <p>Stylesheets</p>
               </div>
-              <div className="squill">
+              <div className="squill four">
                 <p className="squinitial">A11y</p>
                 <p>Accessibility</p>
               </div>

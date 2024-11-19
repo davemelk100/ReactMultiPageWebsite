@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from "./dm-periodic.svg";
+import profileImage from "./dm-periodic-reverse.png";
 
 function Background() {  
   return (
