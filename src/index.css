@@ -155,6 +155,7 @@ nav {
 .nav-link {
   border: 2px solid transparent;
   text-shadow: none;
+  
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -166,6 +167,7 @@ nav {
   text-shadow: none;
   color: #0076b6 !important;
   border: 1px solid #0076b6;
+  font-weight: inherit;
 }
 .navbar-light .navbar-nav .nav-link {
   color: #0076b6;
@@ -3990,7 +3992,7 @@ iframe {
 }
 
 .squill-wrapper {
-  position: fixed;
+  /* position: fixed;
   top: 109px;
   left: 1px;
   display: flex;
@@ -3998,8 +4000,18 @@ iframe {
   top: 83px;
   left: 4px;
   display: flex;
-  z-index: 900;
+  z-index: 900; */
 }
+
+.squill-wrapper {
+  position: fixed;
+  top: 100px;
+  left: 2px;
+  width: 150px;
+  flex-direction: column;
+}
+
+
 
 .squill {
   border: 1px solid #ededed;
@@ -4075,6 +4087,8 @@ iframe {
 
   .main-body {
     padding: 0;
+    margin-top: 60px !important;
+    margin-left: 15px;
   }
 }
 
@@ -4086,13 +4100,6 @@ iframe {
     width: 100%;
   }
 
-  .squill-wrapper {
-    position: fixed;
-    top: 100px;
-    left: 2px;
-    width: 150px;
-    flex-direction: column;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -4116,3 +4123,9 @@ iframe {
 body {
   padding-top: 100px; /* Adjust padding to account for the sticky header height */
 }
+
+.header-clear {
+  margin-top: 50px;
+}
+
+

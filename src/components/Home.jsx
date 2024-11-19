@@ -5,8 +5,8 @@ function Home() {
     <div className="home p-4 p-md-0">
       {/* <Background /> */}
       <div className="container-mine" id="content">
-        <div className="row my-3 justify-content-between d-flex flex-md-row flex-column">
-          <div className="col-auto d-flex align-items-center">
+        <div className="row header-clear justify-content-between d-flex flex-md-row flex-column">
+          <div className="col-auto d-flex d-sm-none d-md-none d-lg-flex d-xl-flex align-items-center">
             <div className="squill-wrapper">
               <div className="squill one">
                 <p className="squinitial">Ld</p>
