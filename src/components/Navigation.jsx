@@ -7,7 +7,11 @@ function Navigation() {
     <header className="navigation sticky-header">
       <div className="row w-100 align-items-center">
         <div className="col-7 h1-wrapper d-flex align-items-center">
-          <img src={dmLogo} className="mh-100 h-100 mr-3 mt-2 ml-2" alt="dave m logo" />
+          <img
+            src={dmLogo}
+            className="mh-100 h-100 mr-3 mt-2 ml-2"
+            alt="dave m logo"
+          />
           <h1 className="header-title">David Melkonian</h1>
         </div>
 
@@ -31,7 +35,9 @@ function Navigation() {
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
                   <NavLink
-                    className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
                     to="/"
                     onClick={() => {
                       document
@@ -44,7 +50,9 @@ function Navigation() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
                     to="/samples"
                     onClick={() => {
                       document
@@ -57,7 +65,9 @@ function Navigation() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
                     to="/skills"
                     onClick={() => {
                       document
@@ -70,7 +80,9 @@ className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
                 </li>
                 <li className="nav-item">
                   <NavLink
-className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
                     to="/resumes"
                     onClick={() => {
                       document
@@ -82,8 +94,25 @@ className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
                   </NavLink>
                 </li>
                 <li className="nav-item">
+                  <a
+                    href="https://www.linkedin.com/in/davemelk/details/recommendations/?detailScreenTabIndex=0"
+                    className="nav-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => {
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
+                    }}
+                  >
+                    Reviews
+                  </a>
+                </li>
+                <li className="nav-item">
                   <NavLink
-className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
                     to="/contact"
                     onClick={() => {
                       document

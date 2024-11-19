@@ -52,7 +52,6 @@ function Home() {
           </div>
 
           <div className="col-12 col-lg-11 px-5 main-body">
-          {/* <p className="recs"><a target="_blank" href="https://www.linkedin.com/in/davemelk/details/recommendations/?detailScreenTabIndex=0">Check out these glowing reviews!</a></p> */}
 
             <h2 className="col-lg-12 p-0 mb-0 page-title">Home</h2>
 
