@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import dmLogo from "./dm-smaller.svg";
 
 function Navigation() {
@@ -30,9 +30,10 @@ function Navigation() {
             >
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                  <Link
+                  <NavLink
                     className="nav-link"
                     to="/"
+                    activeClassName="active"
                     onClick={() => {
                       document
                         .getElementById("navbarSupportedContent")
@@ -40,12 +41,13 @@ function Navigation() {
                     }}
                   >
                     Home
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <NavLink
                     className="nav-link"
                     to="/samples"
+                    activeClassName="active"
                     onClick={() => {
                       document
                         .getElementById("navbarSupportedContent")
@@ -53,25 +55,13 @@ function Navigation() {
                     }}
                   >
                     Samples
-                  </Link>
+                  </NavLink>
                 </li>
-                {/* <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    to="/rxapp"
-                    onClick={() => {
-                      document
-                        .getElementById("navbarSupportedContent")
-                        .classList.remove("show");
-                    }}
-                  >
-                    Prototype
-                  </Link>
-                </li> */}
                 <li className="nav-item">
-                  <Link
+                  <NavLink
                     className="nav-link"
                     to="/skills"
+                    activeClassName="active"
                     onClick={() => {
                       document
                         .getElementById("navbarSupportedContent")
@@ -79,12 +69,13 @@ function Navigation() {
                     }}
                   >
                     Skills
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <NavLink
                     className="nav-link"
                     to="/resumes"
+                    activeClassName="active"
                     onClick={() => {
                       document
                         .getElementById("navbarSupportedContent")
@@ -92,12 +83,13 @@ function Navigation() {
                     }}
                   >
                     Resume
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <NavLink
                     className="nav-link"
                     to="/contact"
+                    activeClassName="active"
                     onClick={() => {
                       document
                         .getElementById("navbarSupportedContent")
@@ -105,7 +97,7 @@ function Navigation() {
                     }}
                   >
                     Contact
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </div>
