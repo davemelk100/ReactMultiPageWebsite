@@ -174,7 +174,7 @@ nav {
 .nav-link.active {
   text-shadow: none;
   color: #0076b6 !important;
-  border: 1px solid #0076b6;
+  border-bottom: 1px solid #0076b6;
   font-weight: inherit;
 }
 .navbar-light .navbar-nav .nav-link {
