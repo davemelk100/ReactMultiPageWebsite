@@ -3979,6 +3979,7 @@ iframe {
     display: flex;
     width: 100%;
     margin: 0;
+    white-space: nowrap;
   }
 
   p {
@@ -4005,9 +4006,9 @@ iframe {
 
 .squill-wrapper {
   position: fixed;
-  top: 100px;
-  left: 2px;
-  width: 150px;
+  top: 90px;
+  left: 8px;
+  /* width: 150px; */
   flex-direction: column;
 }
 

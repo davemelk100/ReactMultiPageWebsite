@@ -51,7 +51,7 @@ function Home() {
             </div>
           </div>
 
-          <div className="col-12 col-lg-10 main-body">
+          <div className="col-12 col-lg-11 px-5 main-body">
             <h2 className="col-lg-12 p-0 mb-0 page-title">Home</h2>
 
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
