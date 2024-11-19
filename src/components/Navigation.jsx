@@ -31,9 +31,8 @@ function Navigation() {
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link"
+                    className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
                     to="/"
-                    activeClassName="active"
                     onClick={() => {
                       document
                         .getElementById("navbarSupportedContent")
@@ -45,9 +44,8 @@ function Navigation() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link"
+                    className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
                     to="/samples"
-                    activeClassName="active"
                     onClick={() => {
                       document
                         .getElementById("navbarSupportedContent")
@@ -59,9 +57,8 @@ function Navigation() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link"
+className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
                     to="/skills"
-                    activeClassName="active"
                     onClick={() => {
                       document
                         .getElementById("navbarSupportedContent")
@@ -73,9 +70,8 @@ function Navigation() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link"
+className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
                     to="/resumes"
-                    activeClassName="active"
                     onClick={() => {
                       document
                         .getElementById("navbarSupportedContent")
@@ -87,9 +83,8 @@ function Navigation() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link"
+className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
                     to="/contact"
-                    activeClassName="active"
                     onClick={() => {
                       document
                         .getElementById("navbarSupportedContent")
