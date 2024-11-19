@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
   background-color: #ffffff;
   color: #171219;
@@ -64,27 +64,24 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "DM Sans", serif;
+  font-family: "Roboto Slab", serif;
   color: #421820;
 }
 h1 {
   margin: 0 0 5px;
   display: flex;
   justify-content: flex-start;
-  font-family: "DM Sans", serif;
 }
 
 h2 {
   display: flex;
   justify-content: flex-start;
   margin: 0 0 10px;
-  font-family: "DM Sans", serif;
 }
 
 h3 {
   margin: 0 0 5px;
   display: flex;
-  font-family: "DM Sans", serif;
 }
 
 h5,
@@ -96,6 +93,18 @@ p,
 li {
   font-weight: 400;
 }
+
+a {
+  color: #2176ae !important;
+  text-decoration: none !important;
+  font-weight: 400 !important;
+}
+
+p.recs {
+  font-size: 50px !important;
+  text-transform: uppercase;
+}
+
 .samples {
   margin: 0;
   display: flex;
@@ -155,7 +164,6 @@ nav {
 .nav-link {
   border: 2px solid transparent;
   text-shadow: none;
-  
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -4012,8 +4020,6 @@ iframe {
   flex-direction: column;
 }
 
-
-
 .squill {
   border: 1px solid #ededed;
   height: 60px;
@@ -4041,43 +4047,43 @@ iframe {
 }
 
 .squill.two {
-  border-color: #eab464;
-  color: #eab464;
+  border-color: #c08835;
+  color: black;
 }
 
 .squill.three {
   border-color: #1c7c54;
-  color: #1c7c54;
+  color: black;
 }
 
 .squill.four {
   border-color: #8f2d56;
-  color: #8f2d56;
+  color: black;
 }
 
 .squill.five {
   border-color: #6d326d;
-  color: #6d326d;
+  color: black;
 }
 
 .squill.six {
-  border-color: #eaac8b;
+  border-color: #dd885a;
   color: black;
 }
 
 .squill.seven {
-  border-color: #d4e79e;
+  border-color: #9cb064;
   color: black;
 }
 
 .squill.eight {
   border-color: #c83e4d;
-  color: #49306b;
+  color: black;
 }
 
 .squill.nine {
   border-color: #49306b;
-  color: #49306b;
+  color: black;
 }
 
 @media (min-width: 768px) {
@@ -4088,7 +4094,7 @@ iframe {
 
   .main-body {
     padding: 0;
-    margin-top: 60px !important;
+    /* margin-top: 60px !important; */
     margin-left: 15px;
   }
 }
@@ -4099,13 +4105,6 @@ iframe {
     display: -ms-flexbox !important;
     display: flex !important;
     width: 100%;
-  }
-
-}
-
-@media (min-width: 1200px) {
-  .container {
-    /* max-width: 1199px; */
   }
 }
 
@@ -4129,4 +4128,14 @@ body {
   margin-top: 50px;
 }
 
+@media (max-width: 992px) {
+  .header-title {
+    font-size: 20px;
+  }
+}
 
+.recs {
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: none;
+}

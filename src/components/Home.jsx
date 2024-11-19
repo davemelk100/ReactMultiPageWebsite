@@ -20,16 +20,16 @@ function Home() {
                 <p className="squinitial">Ps</p>
                 <p>Photoshop</p>
               </div>
-              {/* <div className="squill four">
+              <div className="squill four">
                 <p className="squinitial">Ts</p>
                 <p>Typescript</p>
-              </div> */}
+              </div>
               <div className="squill five">
-                <p className="squinitial">UX</p>
+                <p className="squinitial">Ux</p>
                 <p>Experience</p>
               </div>
               <div className="squill six">
-                <p className="squinitial">UI</p>
+                <p className="squinitial">Ui</p>
                 <p>Interface</p>
               </div>
               <div className="squill seven">
@@ -52,6 +52,8 @@ function Home() {
           </div>
 
           <div className="col-12 col-lg-11 px-5 main-body">
+          {/* <p className="recs"><a target="_blank" href="https://www.linkedin.com/in/davemelk/details/recommendations/?detailScreenTabIndex=0">Check out these glowing reviews!</a></p> */}
+
             <h2 className="col-lg-12 p-0 mb-0 page-title">Home</h2>
 
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
