@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import dmLogo from "./dm-no-border.svg";
+import dmLogo from "./dm-border-svg.svg";
 
 function Navigation() {
   return (
