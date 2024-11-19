@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home p-4 p-md-0">
       {/* <Background /> */}
       <div className="container-mine" id="content">
         <div className="row my-3 justify-content-between d-flex flex-md-row flex-column">

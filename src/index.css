@@ -3983,7 +3983,7 @@ iframe {
     color: #2176ae;
     display: flex;
     width: 100%;
-    margin-left: 15px;
+    margin: 0;
   }
 
   p {
@@ -4006,8 +4006,8 @@ iframe {
   left: 1px;
   display: flex;
   position: fixed;
-  top: 89px;
-  left: 0px;
+  top: 83px;
+  left: 0;
   display: flex;
   z-index: 900;
 }
@@ -4034,47 +4034,48 @@ iframe {
 }
 
 .squill.one {
-  background-color: #1c77c3;
-  color: white;
+  border-color: #1c77c3;
+  color: #1c77c3;
 }
 
 .squill.two {
-  background-color: #eab464;
+  border-color: #eab464;
+  color: #eab464;
 }
 
 .squill.three {
-  background-color: #1c7c54;
-  color: white;
+  border-color: #1c7c54;
+  color: #1c7c54;
 }
 
 .squill.four {
-  background-color: #8f2d56;
-  color: white;
+  border-color: #8f2d56;
+  color: #8f2d56;
 }
 
 .squill.five {
-  background-color: #6d326d;
-  color: white;
+  border-color: #6d326d;
+  color: #6d326d;
 }
 
 .squill.six {
-  background-color: #eaac8b;
+  border-color: #eaac8b;
   color: black;
 }
 
 .squill.seven {
-  background-color: #d4e79e;
+  border-color: #d4e79e;
   color: black;
 }
 
 .squill.eight {
-  background-color: #c83e4d;
-  color: white;
+  border-color: #c83e4d;
+  color: #49306b;
 }
 
 .squill.nine {
-  background-color: #49306b;
-  color: white;
+  border-color: #49306b;
+  color: #49306b;
 }
 
 @media (min-width: 768px) {
@@ -4113,7 +4114,7 @@ iframe {
   width: 100%; /* Ensures it spans the full width of the page */
   z-index: 1000; /* Ensures it appears above other elements */
   background-color: #fff; /* Optional: Set background to prevent transparency issues */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
   padding: 0;
   margin: 0;
   justify-content: flex-start;

@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import dmLogo from "./dm-border-svg.svg";
+import dmLogo from "./dm-smaller.svg";
 
 function Navigation() {
   return (
     <header className="navigation sticky-header">
       <div className="row w-100 align-items-center">
         <div className="col-7 h1-wrapper d-flex align-items-center">
-          <img src={dmLogo} className="mh-100 h-100" alt="dave m logo" />
+          <img src={dmLogo} className="mh-100 h-100 m-1" alt="dave m logo" />
           <h1 className="header-title">David Melkonian</h1>
         </div>
 
         <div className="col-5 d-flex nav-col">
-          <nav className="navbar navbar-expand-md navbar-light bg-transparent">
+          <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
             <button
               className="navbar-toggler mb-2"
               type="button"
