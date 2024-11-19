@@ -3944,6 +3944,7 @@ iframe {
   font-size: 24px;
   align-items: center;
   text-transform: uppercase;
+  font-family: "Inter", sans-serif;
 }
 
 .samples-top {
