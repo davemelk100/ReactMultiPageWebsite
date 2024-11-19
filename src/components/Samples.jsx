@@ -40,12 +40,11 @@ import videoconf from "./remote-int.pdf";
 import deltasearch from "./delta-search.png";
 import rxappone from "./rxapp.png";
 import rxapptwo from "./rxapp2.png";
-import Background from "./Background";
 
 function Samples() {
   return (
     <div className="home">
-      <Background />
+      {/* <Background /> */}
       <div className="container" id="content">
         <div className="row my-3">
           <div className="col-lg-12 mx-0 p-4">

@@ -1742,6 +1742,9 @@ fieldset[disabled] .radio label {
 
 header {
   display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  /* border: 1px solid #124980; */
 }
 
 .header-row {
@@ -3803,10 +3806,10 @@ iframe {
   justify-content: center;
 }
 
-.navbar,
+/* .navbar,
 .navbar-nav,
 .navigation {
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .navigation {
@@ -3814,7 +3817,47 @@ iframe {
   position: relative;
   width: 100%;
   padding: 0 5px;
+} */
+
+.navbar-light .navbar-toggler,
+.navbar-toggler {
+  width: 48px; /* Prevent width changes */
+  height: 48px; /* Optional: keep height consistent */
+  text-align: center; /* Center the icon */
+  margin: 0; /* Remove extra margin */
+  padding: 0.5rem; /* Adjust padding as needed */
+  position: relative; /* Prevent shifting */
+  transition: none; /* Prevent animations during toggle */
+  padding: 0;
 }
+
+.navbar {
+  justify-content: space-between; /* Ensures consistent layout */
+  align-items: center;
+}
+
+.navbar-collapse {
+  transition: height 0.3s ease, transform 0.3s ease; /* Smooth menu open/close */
+}
+
+.nav-col {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-toggler {
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+
+
+
+
+
+
 
 .brand-patch {
   font-weight: 900 !important;
@@ -3931,9 +3974,7 @@ iframe {
 
 .h1-wrapper {
   background: transparent;
-  padding: 10px;
-  /*border: 1px solid #2176ae;
-   border-left: none; */
+  padding: 0;
   color: #2176ae;
   display: flex;
   max-height: 100px;
@@ -3942,6 +3983,7 @@ iframe {
     color: #2176ae;
     display: flex;
     width: 100%;
+    margin-left: 15px;
   }
 
   p {
@@ -3967,7 +4009,7 @@ iframe {
   top: 89px;
   left: 0px;
   display: flex;
-  z-index: 1000;
+  z-index: 900;
 }
 
 .squill {
@@ -4016,26 +4058,24 @@ iframe {
 }
 
 .squill.six {
-  background-color: #EAAC8B;
+  background-color: #eaac8b;
   color: black;
 }
 
 .squill.seven {
-  background-color: #D4E79E;
+  background-color: #d4e79e;
   color: black;
 }
 
 .squill.eight {
-  background-color: #C83E4D;
+  background-color: #c83e4d;
   color: white;
 }
 
 .squill.nine {
-  background-color: #49306B;
+  background-color: #49306b;
   color: white;
 }
-
-
 
 @media (min-width: 768px) {
   .navbar-expand-md .navbar-nav .nav-link {
@@ -4055,7 +4095,7 @@ iframe {
   .squill-wrapper {
     position: fixed;
     top: 100px;
-    left: 30px;
+    left: 2px;
     width: 150px;
     flex-direction: column;
   }
@@ -4065,4 +4105,20 @@ iframe {
   .container {
     /* max-width: 1199px; */
   }
+}
+
+.sticky-header {
+  position: fixed; /* Keeps the header fixed at the top */
+  top: 0; /* Aligns it to the top of the viewport */
+  width: 100%; /* Ensures it spans the full width of the page */
+  z-index: 1000; /* Ensures it appears above other elements */
+  background-color: #fff; /* Optional: Set background to prevent transparency issues */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+  padding: 0;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+body {
+  padding-top: 100px; /* Adjust padding to account for the sticky header height */
 }

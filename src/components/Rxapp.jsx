@@ -1,10 +1,9 @@
 import React from "react";
-import Background from "./Background";
 
 function Rxapp() {
   return (
     <div className="home">
-      <Background />
+      {/* <Background /> */}
       <div className="container" id="content">
         <div className="row my-3">
           <div className="col-lg-12 mx-0 p-4">

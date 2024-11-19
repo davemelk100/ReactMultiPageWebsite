@@ -1,11 +1,11 @@
 import React from "react";
-import Background from "./Background";
+
 import resumepdf from "./david-melkonian.pdf";
 
 function Samples() {
   return (
     <div className="home">
-      <Background />
+      {/* <Background /> */}
       <div className="container" id="content">
         <div className="row my-3">
           <div className="col-lg-12 mx-0 p-4">

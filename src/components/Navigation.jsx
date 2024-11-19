@@ -1,17 +1,17 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import dmLogo from "./dm-periodic.svg";
+import { Link } from "react-router-dom";
+import dmLogo from "./dm-no-border.svg";
 
 function Navigation() {
   return (
     <header className="navigation sticky-header">
-      <div className="row w-100">
-        <div className="col-4 m-0 h1-wrapper">
-          <img src={dmLogo} className="mh-100 h-100 mr-3" alt="dave m logo" />
-          <h1 className="header-title p-0 m-0 mr-4">David Melkonian</h1>
+      <div className="row w-100 align-items-center">
+        <div className="col-7 h1-wrapper d-flex align-items-center">
+          <img src={dmLogo} className="mh-100 h-100" alt="dave m logo" />
+          <h1 className="header-title">David Melkonian</h1>
         </div>
 
-        <div className="col-8 justify-content-end d-flex">
+        <div className="col-5 d-flex nav-col">
           <nav className="navbar navbar-expand-md navbar-light bg-transparent">
             <button
               className="navbar-toggler mb-2"
@@ -30,70 +30,82 @@ function Navigation() {
             >
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                  <NavLink
+                  <Link
                     className="nav-link"
                     to="/"
                     onClick={() => {
-                      document.getElementById("navbarSupportedContent").classList.remove("show");
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
                     }}
                   >
                     Home
-                  </NavLink>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <NavLink
+                  <Link
                     className="nav-link"
                     to="/samples"
                     onClick={() => {
-                      document.getElementById("navbarSupportedContent").classList.remove("show");
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
                     }}
                   >
                     Samples
-                  </NavLink>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <NavLink
+                  <Link
                     className="nav-link"
                     to="/rxapp"
                     onClick={() => {
-                      document.getElementById("navbarSupportedContent").classList.remove("show");
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
                     }}
                   >
                     Prototype
-                  </NavLink>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <NavLink
+                  <Link
                     className="nav-link"
                     to="/skills"
                     onClick={() => {
-                      document.getElementById("navbarSupportedContent").classList.remove("show");
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
                     }}
                   >
                     Skills
-                  </NavLink>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <NavLink
+                  <Link
                     className="nav-link"
                     to="/resumes"
                     onClick={() => {
-                      document.getElementById("navbarSupportedContent").classList.remove("show");
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
                     }}
                   >
                     Resume
-                  </NavLink>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <NavLink
+                  <Link
                     className="nav-link"
                     to="/contact"
                     onClick={() => {
-                      document.getElementById("navbarSupportedContent").classList.remove("show");
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
                     }}
                   >
                     Contact
-                  </NavLink>
+                  </Link>
                 </li>
               </ul>
             </div>

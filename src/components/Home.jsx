@@ -1,10 +1,9 @@
 import React from "react";
-import Background from "./Background";
 
 function Home() {
   return (
     <div className="home">
-      <Background />
+      {/* <Background /> */}
       <div className="container-mine" id="content">
         <div className="row my-3 justify-content-between d-flex flex-md-row flex-column">
           <div className="col-auto d-flex align-items-center">
@@ -53,7 +52,6 @@ function Home() {
           </div>
 
           <div className="col-12 col-lg-10 main-body">
-
             <h2 className="col-lg-12 p-0 mb-0 page-title">Home</h2>
 
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
