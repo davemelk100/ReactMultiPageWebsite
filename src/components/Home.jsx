@@ -6,7 +6,7 @@ function Home() {
       {/* <Background /> */}
       <div className="container-mine" id="content">
         <div className="row header-clear justify-content-between d-flex flex-md-row flex-column">
-          <div className="col-auto d-flex d-sm-none d-md-none d-lg-flex d-xl-flex align-items-center">
+          <div className="col-auto d-none d-sm-none d-md-none d-lg-flex d-xl-flex align-items-center">
             <div className="squill-wrapper">
               <div className="squill one">
                 <p className="squinitial">Ld</p>
