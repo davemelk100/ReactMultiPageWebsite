@@ -53,11 +53,12 @@ function Home() {
 
           <div className="col-12 col-lg-11 px-5 main-body">
 
-            <h2 className="col-lg-12 p-0 mb-0 page-title">Home</h2>
+            {/* <h2 className="col-lg-12 p-0 mb-0 page-title">Home</h2> */}
 
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card p-0">
-                <h3 className="my-3 p-0">Professional Summary</h3>
+                <h2 className="h1 my-2 p-0">David Melkonian</h2>
+                <h3 className="h2 my-3 p-0">Professional Summary</h3>
               </div>
               <div className="col-lg-12 p-0">
                 <section className="professional-summary">

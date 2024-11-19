@@ -310,10 +310,18 @@ a {
   background: white;
 }
 
+.text-card .h1 {
+  color: #421820;
+  text-shadow: none;
+  font-size: 50px;
+}
+
+.text-card .h3,
 .text-card h3 {
   color: #421820;
   text-shadow: none;
 }
+
 .text-card a {
   color: #0c6ac7;
   text-shadow: none;
