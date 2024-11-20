@@ -311,7 +311,7 @@ a {
 }
 
 .text-card .h1 {
-  color: #421820;
+  color: #BA2D0B;
   text-shadow: none;
   font-size: 50px;
 }
@@ -4011,6 +4011,11 @@ iframe {
 
 .fixed-bottom {
   justify-content: flex-start;
+}
+
+.squill-column {
+  flex-direction: column !important;
+  justify-content: flex-start !important;
 }
 
 .squill-wrapper {
