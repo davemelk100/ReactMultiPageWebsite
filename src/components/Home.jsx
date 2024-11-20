@@ -5,7 +5,6 @@ function Home() {
   const {
     skills,
     mainTitle,
-    summaryTitle,
     summaryText,
     skillsTitle,
     skillsText,

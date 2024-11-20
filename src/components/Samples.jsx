@@ -41,7 +41,6 @@ import videoconf from "./remote-int.pdf";
 import deltasearch from "./delta-search.png";
 import rxappone from "./rxapp.png";
 import rxapptwo from "./rxapp2.png";
-import { LINKS_TEXT } from "./textConstants";
 
 
 function Samples() {
