@@ -9,7 +9,7 @@ function Navigation() {
         <div className="col-7 h1-wrapper d-flex align-items-center">
           <img
             src={dmLogo}
-            className="mh-100 h-100 mr-3 mt-2 ml-4"
+            className="mh-100 h-100 mr-3 mt-2 ml-3"
             alt="dave m logo"
           />
           <h1 className="header-title">David Melkonian</h1>

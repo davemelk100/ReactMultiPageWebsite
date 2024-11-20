@@ -162,8 +162,7 @@ nav {
   padding: 0;
 }
 .nav-link {
-  /* border: 2px solid transparent; */
-  text-shadow: none;
+  color: #BA2D0B;
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -173,12 +172,12 @@ nav {
 }
 .nav-link.active {
   text-shadow: none;
-  color: #0076b6 !important;
-  border-bottom: 1px solid #0076b6;
+  color: #BA2D0B !important;
+  border-bottom: 1px solid #BA2D0B;
   font-weight: inherit;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: #0076b6;
+  color: #BA2D0B !important;
 }
 #root {
   background-color: transparent;
@@ -4059,7 +4058,17 @@ width: 150px; */
   }
 }
 
-.squill.one {
+
+.squill.ld,
+.squill.fg,
+.squill.ps,
+.squill.ts,
+.squill.ux,
+.squill.ui,
+.squill.ag,
+.squill.html,
+.squill.css,
+.squill.a11y {
   border-color: #1c77c3;
   color: #1c77c3;
 }
