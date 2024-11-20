@@ -40,17 +40,16 @@ import videoconf from "./remote-int.pdf";
 import deltasearch from "./delta-search.png";
 import rxappone from "./rxapp.png";
 import rxapptwo from "./rxapp2.png";
+import { LINKS_TEXT } from "./textConstants";
 
 function Samples() {
   return (
     <div className="home">
-      {/* <Background /> */}
       <div className="container" id="content">
         <div className="row my-3">
           <div className="col-lg-12 mx-0 p-4">
             <div className="row samples-top">
               <div className="col-lg-12">
-                {/* <Person /> */}
                 <h2 className="pb-2 m-0 page-title">Samples</h2>
                 <p className="small mb-0">
                   <strong>Please note: </strong>There are many more samples I'm

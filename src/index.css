@@ -162,7 +162,7 @@ nav {
   padding: 0;
 }
 .nav-link {
-  border: 2px solid transparent;
+  /* border: 2px solid transparent; */
   text-shadow: none;
 }
 .navbar-light .navbar-nav .active > .nav-link,
@@ -4026,10 +4026,10 @@ iframe {
 }
 
 .squill-wrapper {
-  position: fixed;
+  /* position: fixed;
   top: 90px;
   left: 8px;
-  /* width: 150px; */
+width: 150px; */
   flex-direction: column;
 }
 

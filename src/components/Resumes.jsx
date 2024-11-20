@@ -1,5 +1,4 @@
 import React from "react";
-
 import resumepdf from "./david-melkonian.pdf";
 
 function Samples() {

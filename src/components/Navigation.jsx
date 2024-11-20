@@ -9,7 +9,7 @@ function Navigation() {
         <div className="col-7 h1-wrapper d-flex align-items-center">
           <img
             src={dmLogo}
-            className="mh-100 h-100 mr-3 mt-2 ml-2"
+            className="mh-100 h-100 mr-3 mt-2 ml-4"
             alt="dave m logo"
           />
           <h1 className="header-title">David Melkonian</h1>
@@ -94,21 +94,6 @@ function Navigation() {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a
-                    href="https://www.linkedin.com/in/davemelk/details/recommendations/?detailScreenTabIndex=0"
-                    className="nav-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() => {
-                      document
-                        .getElementById("navbarSupportedContent")
-                        .classList.remove("show");
-                    }}
-                  >
-                    Reviews
-                  </a>
-                </li>
-                <li className="nav-item">
                   <NavLink
                     className={({ isActive }) =>
                       isActive ? "nav-link active" : "nav-link"
@@ -122,6 +107,21 @@ function Navigation() {
                   >
                     Contact
                   </NavLink>
+                </li>
+                <li className="nav-item">
+                  <a
+                    href="https://www.linkedin.com/in/davemelk/details/recommendations/?detailScreenTabIndex=0"
+                    className="nav-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => {
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
+                    }}
+                  >
+                    Reviews
+                  </a>
                 </li>
               </ul>
             </div>
