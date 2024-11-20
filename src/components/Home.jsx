@@ -16,7 +16,6 @@ function Home() {
   return (
     <div className="home p-4 p-md-0">
 
-
       <div className="container-mine" id="content">
 
         <div className="row header-clear justify-content-start d-flex flex-md-row flex-column">
