@@ -29,7 +29,6 @@ function Home() {
               ))}
             </div>
           </div>
-
           <div className="col-12 col-lg-7 px-5 main-body">
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card p-0">
@@ -42,14 +41,12 @@ function Home() {
                     <p key={index}>{paragraph}</p>
                   ))}
                 </section>
-
                 <section className="skills-expertise">
                   <h4>{skillsTitle}</h4>
                   {skillsText.map((paragraph, index) => (
                     <p key={index}>{paragraph}</p>
                   ))}
                 </section>
-
                 <section className="ux-ui-design">
                   <h4>{uxUiTitle}</h4>
                   {uxUiText.map((paragraph, index) => (
