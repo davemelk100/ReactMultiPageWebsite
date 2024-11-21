@@ -1,6 +1,6 @@
 import React from "react";
 import recordtwo from "./stripes.png";
-import resumepdf from "./david-melkonian.pdf";
+import resumepdf from "./david-melkonian-11-21-2024.pdf";
 
 function Resume() {
   return (
