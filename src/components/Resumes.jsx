@@ -1,6 +1,6 @@
 import React from "react";
 import { HOME_PAGE_TEXT } from "./textConstants";
-import resumepdf from "./david-melkonian-11-21-2024.pdf";
+import resumepdf from "./dave-melkonian.pdf";
 
 function Home() {
   const { skills } = HOME_PAGE_TEXT;

@@ -4186,3 +4186,17 @@ body {
   font-weight: 400;
   text-decoration: none;
 }
+
+.rx-btn {
+  background: white;
+  text-transform: capitalize;
+  text-decoration: none !important;
+  padding-block-end: 0 !important;
+  padding-block-start: 0 !important;
+  padding-bottom: 0 !important;
+  padding-inline-end: 0 !important;
+  padding-inline-start: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 0;
+}
