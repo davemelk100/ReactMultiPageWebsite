@@ -4,13 +4,6 @@ import { HOME_PAGE_TEXT } from "./textConstants";
 function Contact() {
   const {
     skills,
-    mainTitle,
-    summaryTitle,
-    summaryText,
-    skillsTitle,
-    skillsText,
-    uxUiTitle,
-    uxUiText,
   } = HOME_PAGE_TEXT;
 
   return (
