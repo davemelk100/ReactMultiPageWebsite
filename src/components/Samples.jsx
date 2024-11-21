@@ -49,7 +49,7 @@ function Samples() {
     <div className="home p-4 p-md-0">
       <div className="container-mine" id="content">
         <div className="row header-clear justify-content-start d-flex flex-md-row flex-column">
-          <div className="col-1 squill-column d-none d-sm-none d-md-none d-lg-flex d-xl-flex align-items-center ps-5">
+          <div className="col-1 squill-column d-none d-sm-none d-md-none d-lg-flex d-xl-flex align-items-center">
             <div className="squill-wrapper">
               {skills.map((skill, index) => (
                 <div

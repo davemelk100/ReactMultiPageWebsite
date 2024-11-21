@@ -2,7 +2,6 @@ import React from "react";
 import { HOME_PAGE_TEXT } from "./textConstants";
 import resumepdf from "./david-melkonian-11-21-2024.pdf";
 
-
 function Home() {
   const { skills } = HOME_PAGE_TEXT;
 
@@ -10,7 +9,7 @@ function Home() {
     <div className="home p-4 p-md-0">
       <div className="container-mine" id="content">
         <div className="row header-clear justify-content-start d-flex flex-md-row flex-column">
-          <div className="col-1 squill-column d-none d-sm-none d-md-none d-lg-flex d-xl-flex align-items-center ps-5">
+          <div className="col-1 squill-column d-none d-sm-none d-md-none d-lg-flex d-xl-flex align-items-center">
             <div className="squill-wrapper">
               {skills.map((skill, index) => (
                 <div
@@ -29,10 +28,15 @@ function Home() {
               <div className="col-lg-12 text-card p-0">
                 <h2 className="h1 my-2 p-0">Resume</h2>
                 <h3 className="h2 my-3 p-0">There's a lot to unpack here.</h3>
-                <p className="h4"><a className="h5 text-decoration-underline" href={resumepdf} download>
+                <p className="h4">
+                  <a
+                    className="h5 text-decoration-underline"
+                    href={resumepdf}
+                    download
+                  >
                     Download
                   </a>
-                  </p>
+                </p>
               </div>
 
               <div className="col-lg-12 text-card">
