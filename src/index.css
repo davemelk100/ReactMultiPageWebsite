@@ -4115,6 +4115,7 @@ width: 150px; */
 
 .navbar-nav {
   margin-right: 0 !important;
+  background: white;
 }
 
 .navigation .row {
@@ -4136,6 +4137,19 @@ width: 150px; */
     display: -ms-flexbox !important;
     display: flex !important;
     width: 100%;
+  }
+
+}
+
+.navbar-collapse {
+  /* Other default styles */
+}
+
+/* Styles for screens with width 992px or smaller */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 61px;
   }
 }
 
@@ -4163,6 +4177,8 @@ body {
   .header-title {
     font-size: 20px;
   }
+  
+  
 }
 
 .recs {

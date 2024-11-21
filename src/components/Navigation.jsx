@@ -16,7 +16,7 @@ function Navigation() {
         </div>
 
         <div className="col-5 d-flex nav-col">
-          <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+          <nav className="navbar navbar-expand-lg navbar-light bg-transparent align-items-center justify-content-center">
             <button
               className="navbar-toggler mb-2"
               type="button"
