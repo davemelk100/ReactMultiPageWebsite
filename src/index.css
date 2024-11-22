@@ -4006,6 +4006,9 @@ iframe {
     width: 100%;
     display: flex;
   }
+  .nav-link.active {
+    border-bottom: none !important;
+  }
 }
 
 .fixed-bottom {
@@ -4196,3 +4199,4 @@ body {
   padding-top: 0;
   color: #2176ae !important;
 }
+
