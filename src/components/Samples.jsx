@@ -90,12 +90,12 @@ function Samples() {
                         </button>
                       </li>
                       <li className="mb-1">
-                        <a href="/remote-int.pdf" target="_blank">
+                        <a href="/remote-int.pdf" target="_blank" rel="noopener noreferrer">
                           Video conference concept
                         </a>
                       </li>
                       <li className="mb-1">
-                        <a href="/dash-concept.pdf" target="_blank">
+                        <a href="/dash-concept.pdf" target="_blank" rel="noopener noreferrer">
                           Mobile-first dashboard concept
                         </a>
                       </li>
@@ -103,23 +103,24 @@ function Samples() {
                       <li className="mb-1">
                         <a
                           target="_blank"
+                           rel="noopener noreferrer"
                           href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1"
                         >
                           Mobile App Prototype - Help Desk
                         </a>
                       </li>
                       <li className="mb-1">
-                        <a href="/onu-one-uxui-plan.pdf" target="_blank">
+                        <a href="/onu-one-uxui-plan.pdf" target="_blank" rel="noopener noreferrer">
                           3D Software UX Plan
                         </a>
                       </li>
                       <li className="mb-1">
-                        <a href="../onu-one-uxui-plan.pdf" target="_blank">
+                        <a href="../onu-one-uxui-plan.pdf" target="_blank" rel="noopener noreferrer">
                           3D Software UX Plan pt 2
                         </a>
                       </li>
                       <li className="mb-1">
-                        <a href="/uxui-solution-examples.pdf" target="_blank">
+                        <a href="/uxui-solution-examples.pdf" target="_blank" rel="noopener noreferrer">
                           UX/UI Solution Use Cases
                         </a>
                       </li>
@@ -132,6 +133,7 @@ function Samples() {
                         <a
                           href="https://dribbble.com/davemelk100"
                           target="_blank"
+                           rel="noopener noreferrer"
                         >
                           Creative work
                         </a>

@@ -7,7 +7,7 @@ function Navigation() {
     <header className="navigation sticky-header">
       <div className="row w-100 align-items-center">
         <div className="col-7 h1-wrapper d-flex align-items-center">
-          <NavLink
+          {/* <NavLink
             className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
             to="/"
             onClick={() => {
@@ -19,7 +19,20 @@ function Navigation() {
               className="mh-100 h-100 mr-3 mt-0 ml-3"
               alt="dave m logo"
             />
-          </NavLink>
+          </NavLink> */}
+          <div className="periodic-card col-auto mx-3">
+            <div className="top-row">
+              <span className="label">UX</span>
+              <span className="label">UI</span>
+            </div>
+            <div className="center-content">
+              <span className="symbol">Dm</span>
+            </div>
+            <div className="bottom-row">
+              <span className="footer-text">100% DIGITAL</span>
+            </div>
+          </div>
+
           <h1 className="header-title">David Melkonian</h1>
         </div>
 
@@ -36,14 +49,21 @@ function Navigation() {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
                   <NavLink
-                    className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
                     to="/"
                     onClick={() => {
-                      document.getElementById("navbarSupportedContent").classList.remove("show");
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
                     }}
                   >
                     Home
@@ -51,10 +71,14 @@ function Navigation() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
                     to="/samples"
                     onClick={() => {
-                      document.getElementById("navbarSupportedContent").classList.remove("show");
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
                     }}
                   >
                     Samples
@@ -62,10 +86,14 @@ function Navigation() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
                     to="/skills"
                     onClick={() => {
-                      document.getElementById("navbarSupportedContent").classList.remove("show");
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
                     }}
                   >
                     Skills
@@ -73,10 +101,14 @@ function Navigation() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
                     to="/contact"
                     onClick={() => {
-                      document.getElementById("navbarSupportedContent").classList.remove("show");
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
                     }}
                   >
                     Contact
@@ -89,7 +121,9 @@ function Navigation() {
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => {
-                      document.getElementById("navbarSupportedContent").classList.remove("show");
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
                     }}
                   >
                     Reviews
