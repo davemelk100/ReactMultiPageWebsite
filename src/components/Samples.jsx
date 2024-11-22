@@ -101,32 +101,38 @@ function Samples() {
                       </li>
 
                       <li className="mb-1">
-                        <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1">
+                        <a
+                          target="_blank"
+                          href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1"
+                        >
                           Mobile App Prototype - Help Desk
                         </a>
                       </li>
                       <li className="mb-1">
-                        <a href="https://davemelkcom.files.wordpress.com/2021/10/onu-one-uxui-plan.pdf">
+                        <a href="/onu-one-uxui-plan.pdf" target="_blank">
                           3D Software UX Plan
                         </a>
                       </li>
                       <li className="mb-1">
-                        <a href="../onu-one-uxui-plan.pdf" download>
+                        <a href="../onu-one-uxui-plan.pdf" target="_blank">
                           3D Software UX Plan pt 2
                         </a>
                       </li>
                       <li className="mb-1">
-                        <a href="https://davemelkcom.files.wordpress.com/2021/10/uxui-solution-examples.pdf">
+                        <a href="/uxui-solution-examples.pdf" target="_blank">
                           UX/UI Solution Use Cases
                         </a>
                       </li>
                       <li className="mb-1">
-                        <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf">
+                        <a href="/ux-ui-examples-sketch-3.pdf" target="_blank">
                           UX/UI Random Sketches
                         </a>
                       </li>
                       <li className="mb-1">
-                        <a href="https://dribbble.com/davemelk100">
+                        <a
+                          href="https://dribbble.com/davemelk100"
+                          target="_blank"
+                        >
                           Creative work
                         </a>
                       </li>
