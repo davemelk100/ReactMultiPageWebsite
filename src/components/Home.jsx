@@ -1,8 +1,8 @@
 import React from "react";
-import { HOME_PAGE_TEXT } from "./textConstants";
+// import { HOME_PAGE_TEXT } from "./textConstants";
 
 function Home() {
-  const { skills } = HOME_PAGE_TEXT;
+  // const { skills } = HOME_PAGE_TEXT;
 
   return (
     <div className="home p-4 p-md-0">
