@@ -39,6 +39,7 @@ import lansingbottom from "./lansing-2.png";
 import deltasearch from "./delta-search.png";
 import rxappone from "./rxapp.png";
 import rxapptwo from "./rxapp2.png";
+import melkone from "./melk-concept-1.png"
 
 function Samples() {
   const { skills } = HOME_PAGE_TEXT;
@@ -127,6 +128,40 @@ function Samples() {
                       </li>
                     </ul>
                   </div>
+
+
+
+                  <div className="col-lg-12 p-0">
+                    <small className="mb-2">project</small>
+                    <p className="h5">
+                      Melkonian Industries Landing Page concept
+                    </p>
+                    <small className="mb-0">role</small>
+                    <p className="mb-2">User Interface Designer</p>
+                    <br />
+                    <small className="mb-0">contributions</small>
+                    <ul className="mb-6">
+                      <li className="mb-1">
+                        Designed this concept as a potential landing page for a personal project.
+                      </li>
+                      <li className="mb-1">
+                        Photography was done by myself.
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="col-lg-12 mb-5">
+                    <img
+                      className="grow sample-img"
+                      src={melkone}
+                      alt="landing page concept"
+                    />
+                  </div>
+
+
+
+
+
+
 
                   <div className="col-lg-12 p-0">
                     <small className="mb-2">project</small>
