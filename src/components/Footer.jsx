@@ -4,51 +4,48 @@ function Footer() {
   return (
     <div className="footer">
 
-     {/*  <footer className="fixed-bottom d-flex align-items-center justify-content-space-between">
-         <div className="col">
-          <p className="p-0 m-0 text-uppercase">David Melkonian</p>
-        </div>
+      <footer className="footer-body fixed-bottom d-flex align-items-center justify-content-evenly">
            <div className="squill">
             <p className="squinitial">Ld</p>
-            <p>Leadership</p>
+            <p className="skill">Leadership</p>
           </div>
           <div className="squill">
             <p className="squinitial">Fg</p>
-            <p>Figma</p>
+            <p className="skill">Figma</p>
           </div>
           <div className="squill">
             <p className="squinitial">Ps</p>
-            <p>Photoshop</p>
+            <p className="skill">Photoshop</p>
           </div>
           <div className="squill">
             <p className="squinitial">Ts</p>
-            <p>Typescript</p>
+            <p className="skill">Typescript</p>
           </div>
           <div className="squill">
             <p className="squinitial">UX</p>
-            <p>Experience</p>
+            <p className="skill">Experience</p>
           </div>
           <div className="squill">
             <p className="squinitial">UI</p>
-            <p>Interface</p>
+            <p className="skill">Interface</p>
           </div>
           <div className="squill">
             <p className="squinitial">Ag</p>
-            <p>Agile</p>
+            <p className="skill">Agile</p>
           </div>
           <div className="squill">
             <p className="squinitial">Html</p>
-            <p>Markup</p>
+            <p className="skill">Markup</p>
           </div>        
           <div className="squill">
             <p className="squinitial">Css</p>
-            <p>Stylesheets</p>
+            <p className="skill">Stylesheets</p>
           </div>
           <div className="squill">
             <p className="squinitial">A11y</p>
-            <p>Accessibility</p>
+            <p className="skill">Accessibility</p>
           </div>       
-      </footer>   */}
+      </footer>  
     </div>
   );
 }

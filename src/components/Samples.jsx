@@ -39,7 +39,7 @@ import deltasearch from "./delta-search.png";
 import rxappone from "./rxapp.png";
 import rxapptwo from "./rxapp2.png";
 import melkone from "./melk-concept-1.png"
-import melktwo from "./melk-concept-2.png"
+// import melktwo from "./melk-concept-2.png"
 import melkthree from "./melk-concept-3.png"
 
 function Samples() {
@@ -151,15 +151,15 @@ function Samples() {
                   </div>
                   <div className="col-lg-12 mb-5">
                     <img
-                      className="grow sample-img"
+                      className="grow sample-img mb-3"
                       src={melkone}
                       alt="landing page concept"
                     />
-                      <img
+                      {/* <img
                       className="grow sample-img"
                       src={melktwo}
                       alt="landing page concept"
-                    />
+                    /> */}
                       <img
                       className="grow sample-img"
                       src={melkthree}

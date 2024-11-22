@@ -19,7 +19,7 @@ function Navigation() {
                     }}
                   >          <img
             src={dmLogo}
-            className="mh-100 h-100 mr-3 mt-2 ml-3"
+            className="mh-100 h-100 mr-3 mt-0 ml-3"
             alt="dave m logo"
           />
                   </NavLink>
