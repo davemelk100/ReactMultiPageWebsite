@@ -1,5 +1,4 @@
 import React from "react";
-import { HOME_PAGE_TEXT } from "./textConstants";
 import comptwo from "./comptwo.png";
 import compthree from "./compthree.png";
 import compfour from "./compfour.png";
@@ -44,7 +43,6 @@ import melktwo from "./melk-concept-2.png"
 import melkthree from "./melk-concept-3.png"
 
 function Samples() {
-  const { skills } = HOME_PAGE_TEXT;
 
   const handleOpenNewWindow = () => {
     window.open(
