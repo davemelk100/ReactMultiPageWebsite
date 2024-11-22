@@ -97,6 +97,11 @@ function Samples() {
                         </a>
                       </li>
                       <li className="mb-1">
+                        <a href="../dash-concept.pdf" download>
+                          Mobile-first dashboard concept
+                        </a>
+                      </li>
+                      <li className="mb-1">
                         <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1">
                           Mobile App Prototype - Help Desk
                         </a>
