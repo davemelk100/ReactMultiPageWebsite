@@ -38,18 +38,13 @@ import lansingbottom from "./lansing-2.png";
 import deltasearch from "./delta-search.png";
 import rxappone from "./rxapp.png";
 import rxapptwo from "./rxapp2.png";
-import melkone from "./melk-concept-1.png"
+import melkone from "./melk-concept-1.png";
 // import melktwo from "./melk-concept-2.png"
-import melkthree from "./melk-concept-3.png"
+import melkthree from "./melk-concept-3.png";
 
 function Samples() {
-
   const handleOpenNewWindow = () => {
-    window.open(
-      "http://davemelk.com/rxapp/",
-      "_blank",
-      "noopener,noreferrer"
-    );
+    window.open("http://davemelk.com/rxapp/", "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -87,20 +82,24 @@ function Samples() {
                         <small className="mb-0 p-0">sample links</small>
                       </li>
                       <li className="mb-1">
-                        <button className="rx-btn border-0" onClick={handleOpenNewWindow}>
+                        <button
+                          className="rx-btn border-0"
+                          onClick={handleOpenNewWindow}
+                        >
                           Rx App Prototype
                         </button>
                       </li>
                       <li className="mb-1">
-                        <a href="../remote-int.pdf" download>
+                        <a href="/remote-int.pdf" target="_blank">
                           Video conference concept
                         </a>
                       </li>
                       <li className="mb-1">
-                        <a href="../dash-concept.pdf" download>
+                        <a href="/dash-concept.pdf" target="_blank">
                           Mobile-first dashboard concept
                         </a>
                       </li>
+
                       <li className="mb-1">
                         <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1">
                           Mobile App Prototype - Help Desk
@@ -134,8 +133,6 @@ function Samples() {
                     </ul>
                   </div>
 
-
-
                   <div className="col-lg-12 p-0">
                     <small className="mb-2">project</small>
                     <p className="h5">
@@ -147,11 +144,10 @@ function Samples() {
                     <small className="mb-0">contributions</small>
                     <ul className="mb-6">
                       <li className="mb-1">
-                        Designed these concepts as potential landing pages for a personal project.
+                        Designed these concepts as potential landing pages for a
+                        personal project.
                       </li>
-                      <li className="mb-1">
-                        Photography was done by myself.
-                      </li>
+                      <li className="mb-1">Photography was done by myself.</li>
                     </ul>
                   </div>
                   <div className="col-lg-12 mb-5">
@@ -160,23 +156,17 @@ function Samples() {
                       src={melkone}
                       alt="landing page concept"
                     />
-                      {/* <img
+                    {/* <img
                       className="grow sample-img"
                       src={melktwo}
                       alt="landing page concept"
                     /> */}
-                      <img
+                    <img
                       className="grow sample-img"
                       src={melkthree}
                       alt="landing page concept"
                     />
                   </div>
-
-
-
-
-
-
 
                   <div className="col-lg-12 p-0">
                     <small className="mb-2">project</small>
