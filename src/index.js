@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import * as serviceWorker from "./serviceWorker";
+// import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router} from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import {
@@ -39,4 +39,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-serviceWorker.unregister();
+// serviceWorker.unregister();
