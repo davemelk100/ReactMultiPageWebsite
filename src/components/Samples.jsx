@@ -41,6 +41,7 @@ import rxappone from "./rxapp.png";
 import rxapptwo from "./rxapp2.png";
 import melkone from "./melk-concept-1.png"
 import melktwo from "./melk-concept-2.png"
+import melkthree from "./melk-concept-3.png"
 
 function Samples() {
   const { skills } = HOME_PAGE_TEXT;
@@ -159,6 +160,11 @@ function Samples() {
                       <img
                       className="grow sample-img"
                       src={melktwo}
+                      alt="landing page concept"
+                    />
+                      <img
+                      className="grow sample-img"
+                      src={melkthree}
                       alt="landing page concept"
                     />
                   </div>
