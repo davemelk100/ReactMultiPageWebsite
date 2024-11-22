@@ -1,14 +1,14 @@
 import React from "react";
-import { HOME_PAGE_TEXT } from "./textConstants";
+// import { HOME_PAGE_TEXT } from "./textConstants";
 
 function Skills() {
-  const { skills } = HOME_PAGE_TEXT;
+  // const { skills } = HOME_PAGE_TEXT;
 
   return (
     <div className="home p-4 p-md-0">
       <div className="container-mine" id="content">
         <div className="row header-clear justify-content-start d-flex flex-md-row flex-column">
-          <div className="col-1 squill-column d-none d-sm-none d-md-none d-lg-flex d-xl-flex align-items-center">
+          {/* <div className="col-1 squill-column d-none d-sm-none d-md-none d-lg-flex d-xl-flex align-items-center">
             <div className="squill-wrapper">
               {skills.map((skill, index) => (
                 <div
@@ -20,7 +20,7 @@ function Skills() {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
 
           <div className="col-md-8 offset-md-2 px-lg-5 main-body">
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
