@@ -22,7 +22,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className="col-12 col-lg-7 px-5 main-body">
+          <div className="col-12 col-lg-7 px-lg-5 main-body">
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card p-0">
                 <h2 className="h1 my-2 p-0">Skills</h2>

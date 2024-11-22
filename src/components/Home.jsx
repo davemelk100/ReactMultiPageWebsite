@@ -21,7 +21,7 @@ function Home() {
               ))}
             </div>
           </div>
-          <div className="col-12 col-lg-7 px-5 main-body">
+          <div className="col-12 col-lg-7 px-lg-5 main-body">
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card p-0">
                 <h2 className="h1 my-2 p-0">David Melkonian</h2>
@@ -57,14 +57,13 @@ function Home() {
                   production-ready code.
                 </p>
                 <p>
-                  I am a UX/UI specialist, skilled in
-                  developing and integrating graphic design systems directly
-                  with front-end code. I have created wireframes, graphic
-                  compositions, design systems, working prototypes, and fully
-                  coded proof-of-concept projects. My design toolkit includes
-                  Figma, Photoshop, Illustrator, and Sketch, and I have a deep
-                  understanding of creating cohesive, visually compelling user
-                  experiences.
+                  I am a UX/UI specialist, skilled in developing and integrating
+                  graphic design systems directly with front-end code. I have
+                  created wireframes, graphic compositions, design systems,
+                  working prototypes, and fully coded proof-of-concept projects.
+                  My design toolkit includes Figma, Photoshop, Illustrator, and
+                  Sketch, and I have a deep understanding of creating cohesive,
+                  visually compelling user experiences.
                 </p>
               </div>
             </div>
