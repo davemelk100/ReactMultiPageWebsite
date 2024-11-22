@@ -57,7 +57,7 @@ function Home() {
                   production-ready code.
                 </p>
                 <p>
-                  I am a UX/UI specialist with a CUA credential, skilled in
+                  I am a UX/UI specialist, skilled in
                   developing and integrating graphic design systems directly
                   with front-end code. I have created wireframes, graphic
                   compositions, design systems, working prototypes, and fully
