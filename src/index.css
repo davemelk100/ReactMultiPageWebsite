@@ -162,7 +162,7 @@ nav {
   padding: 0;
 }
 .nav-link {
-  color: #BA2D0B;
+  color: #ba2d0b;
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -172,12 +172,12 @@ nav {
 }
 .nav-link.active {
   text-shadow: none;
-  color: #BA2D0B !important;
-  border-bottom: 1px solid #BA2D0B;
+  color: #ba2d0b !important;
+  border-bottom: 1px solid #ba2d0b;
   font-weight: inherit;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: #BA2D0B !important;
+  color: #ba2d0b !important;
 }
 #root {
   background-color: transparent;
@@ -310,7 +310,7 @@ a {
 }
 
 .text-card .h1 {
-  color: #BA2D0B;
+  color: #ba2d0b;
   text-shadow: none;
   font-size: 50px;
 }
@@ -322,7 +322,7 @@ a {
 }
 
 .text-card a {
-  color: #0c6ac7;
+  color: #2176ae;
   text-shadow: none;
 }
 #contents {
@@ -629,7 +629,7 @@ ul li {
 }
 
 a {
-  color: #0c6ac7;
+  color: #2176ae;
   text-decoration: none;
 }
 
@@ -3471,7 +3471,7 @@ app-tooltip {
 
 #viewLink:hover,
 #hideLink:hover {
-  color: #0c6ac7;
+  color: #2176ae;
 }
 
 .add-att-text {
@@ -4058,7 +4058,6 @@ width: 150px; */
   }
 }
 
-
 .squill.ld,
 .squill.fg,
 .squill.ps,
@@ -4123,7 +4122,6 @@ width: 150px; */
   width: 100%;
 }
 
-
 @media (min-width: 768px) {
   .main-body {
     padding: 0;
@@ -4138,7 +4136,6 @@ width: 150px; */
     display: flex !important;
     width: 100%;
   }
-
 }
 
 .navbar-collapse {
@@ -4177,8 +4174,6 @@ body {
   .header-title {
     font-size: 20px;
   }
-  
-  
 }
 
 .recs {
@@ -4199,4 +4194,5 @@ body {
   padding-left: 0 !important;
   padding-right: 0 !important;
   padding-top: 0;
+  color: #2176ae !important;
 }

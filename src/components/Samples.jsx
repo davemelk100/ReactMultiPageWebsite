@@ -89,7 +89,7 @@ function Samples() {
                         <small className="mb-0 p-0">sample links</small>
                       </li>
                       <li className="mb-1">
-                        <button class="btn btn-link rx-btn" onClick={handleOpenNewWindow}>
+                        <button class="rx-btn border-0" onClick={handleOpenNewWindow}>
                           Rx App Prototype
                         </button>
                       </li>
