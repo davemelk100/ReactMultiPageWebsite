@@ -7,23 +7,19 @@ function Navigation() {
     <header className="navigation sticky-header">
       <div className="row w-100 align-items-center">
         <div className="col-7 h1-wrapper d-flex align-items-center">
-        <NavLink
-                    className={({ isActive }) =>
-                      isActive ? "nav-link active" : "nav-link"
-                    }
-                    to="/"
-                    onClick={() => {
-                      document
-                        .getElementById("navbarSupportedContent")
-                        .classList.remove("show");
-                    }}
-                  >          <img
-            src={dmLogo}
-            className="mh-100 h-100 mr-3 mt-0 ml-3"
-            alt="dave m logo"
-          />
-                  </NavLink>
-
+          <NavLink
+            className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+            to="/"
+            onClick={() => {
+              document.getElementById("navbarSupportedContent").classList.remove("show");
+            }}
+          >
+            <img
+              src={dmLogo}
+              className="mh-100 h-100 mr-3 mt-0 ml-3"
+              alt="dave m logo"
+            />
+          </NavLink>
           <h1 className="header-title">David Melkonian</h1>
         </div>
 
@@ -40,21 +36,14 @@ function Navigation() {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            >
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
                   <NavLink
-                    className={({ isActive }) =>
-                      isActive ? "nav-link active" : "nav-link"
-                    }
+                    className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
                     to="/"
                     onClick={() => {
-                      document
-                        .getElementById("navbarSupportedContent")
-                        .classList.remove("show");
+                      document.getElementById("navbarSupportedContent").classList.remove("show");
                     }}
                   >
                     Home
@@ -62,14 +51,10 @@ function Navigation() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className={({ isActive }) =>
-                      isActive ? "nav-link active" : "nav-link"
-                    }
+                    className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
                     to="/samples"
                     onClick={() => {
-                      document
-                        .getElementById("navbarSupportedContent")
-                        .classList.remove("show");
+                      document.getElementById("navbarSupportedContent").classList.remove("show");
                     }}
                   >
                     Samples
@@ -77,44 +62,21 @@ function Navigation() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className={({ isActive }) =>
-                      isActive ? "nav-link active" : "nav-link"
-                    }
+                    className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
                     to="/skills"
                     onClick={() => {
-                      document
-                        .getElementById("navbarSupportedContent")
-                        .classList.remove("show");
+                      document.getElementById("navbarSupportedContent").classList.remove("show");
                     }}
                   >
                     Skills
                   </NavLink>
                 </li>
-                {/* <li className="nav-item">
-                  <NavLink
-                    className={({ isActive }) =>
-                      isActive ? "nav-link active" : "nav-link"
-                    }
-                    to="/resumes"
-                    onClick={() => {
-                      document
-                        .getElementById("navbarSupportedContent")
-                        .classList.remove("show");
-                    }}
-                  >
-                    Resume
-                  </NavLink>
-                </li> */}
                 <li className="nav-item">
                   <NavLink
-                    className={({ isActive }) =>
-                      isActive ? "nav-link active" : "nav-link"
-                    }
+                    className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
                     to="/contact"
                     onClick={() => {
-                      document
-                        .getElementById("navbarSupportedContent")
-                        .classList.remove("show");
+                      document.getElementById("navbarSupportedContent").classList.remove("show");
                     }}
                   >
                     Contact
@@ -127,9 +89,7 @@ function Navigation() {
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => {
-                      document
-                        .getElementById("navbarSupportedContent")
-                        .classList.remove("show");
+                      document.getElementById("navbarSupportedContent").classList.remove("show");
                     }}
                   >
                     Reviews
