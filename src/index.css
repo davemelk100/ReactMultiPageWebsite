@@ -1952,7 +1952,7 @@ footer {
 }
 
 footer p {
-  color: #124980;
+  color: black;
 }
 
 .footer-menu-col {
@@ -3812,7 +3812,7 @@ small {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #ff5a5f;
+  color: #ba2d0b;
 }
 
 iframe {
@@ -4034,11 +4034,11 @@ iframe {
   margin: 5px 0;
   padding: 10px 10px 10px 7px;
   background: transparent;
-  border: 1px solid #1c77c3;
+  border: 1px solid black;
 
   p {
     margin: 0;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 12px;
   }
   .squinitial {
