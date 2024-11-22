@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import dmLogo from "./dm-smaller.svg";
+// import dmLogo from "./dm-smaller.svg";
 
 function Navigation() {
   return (
