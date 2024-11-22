@@ -317,7 +317,7 @@ a {
 
 .text-card .h3,
 .text-card h3 {
-  color: #421820;
+  color: #2d2e2e;
   text-shadow: none;
 }
 
@@ -1952,7 +1952,7 @@ footer {
 }
 
 footer p {
-  color: black;
+  color: #ba2d0b;
 }
 
 .footer-menu-col {
@@ -4034,7 +4034,7 @@ iframe {
   margin: 5px 0;
   padding: 10px 10px 10px 7px;
   background: transparent;
-  border: 1px solid black;
+  border: 1px solid #ba2d0b;
 
   p {
     margin: 0;
@@ -4127,10 +4127,6 @@ iframe {
   }
 }
 
-.navbar-collapse {
-  /* Other default styles */
-}
-
 /* Styles for screens with width 992px or smaller */
 @media (max-width: 992px) {
   .navbar-collapse {
@@ -4138,18 +4134,6 @@ iframe {
     top: 60px;
     right: -3px;
     width: 120px;
-  }
-  .squill {
-    /* height: 46px;
-    width: 65px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 5px 0;
-    padding: 5px;
-    background: transparent;
-    border: 1px solid #1c77c3;
-    align-items: center; */
   }
 }
 
