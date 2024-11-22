@@ -40,13 +40,14 @@ import deltasearch from "./delta-search.png";
 import rxappone from "./rxapp.png";
 import rxapptwo from "./rxapp2.png";
 import melkone from "./melk-concept-1.png"
+import melktwo from "./melk-concept-2.png"
 
 function Samples() {
   const { skills } = HOME_PAGE_TEXT;
 
   const handleOpenNewWindow = () => {
     window.open(
-      "http://localhost:3000/rxapp/",
+      "http://davemelk.com/rxapp/",
       "_blank",
       "noopener,noreferrer"
     );
@@ -134,7 +135,7 @@ function Samples() {
                   <div className="col-lg-12 p-0">
                     <small className="mb-2">project</small>
                     <p className="h5">
-                      Melkonian Industries Landing Page concept
+                      Melkonian Industries Landing Page concepts
                     </p>
                     <small className="mb-0">role</small>
                     <p className="mb-2">User Interface Designer</p>
@@ -142,7 +143,7 @@ function Samples() {
                     <small className="mb-0">contributions</small>
                     <ul className="mb-6">
                       <li className="mb-1">
-                        Designed this concept as a potential landing page for a personal project.
+                        Designed these concepts as potential landing pages for a personal project.
                       </li>
                       <li className="mb-1">
                         Photography was done by myself.
@@ -153,6 +154,11 @@ function Samples() {
                     <img
                       className="grow sample-img"
                       src={melkone}
+                      alt="landing page concept"
+                    />
+                      <img
+                      className="grow sample-img"
+                      src={melktwo}
                       alt="landing page concept"
                     />
                   </div>
