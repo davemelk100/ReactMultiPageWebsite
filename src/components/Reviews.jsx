@@ -1,5 +1,4 @@
 import React from "react";
-import resumepdf from "./dave-melkonian.pdf";
 
 function Reviews() {
   return (

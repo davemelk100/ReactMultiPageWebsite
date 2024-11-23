@@ -17,6 +17,7 @@ import {
   Post,
   Resumes,
   Reviews,
+  Lab,
 } from "./components";
 
 ReactDOM.render(
@@ -30,7 +31,8 @@ ReactDOM.render(
       <Route path="/contact" element={<Contact />} />
       <Route path="/rxapp" element={<Rxapp />} />
       <Route path="/resumes" element={<Resumes />} />
-      <Route path="/reviews" element={<Reviews />}>
+      <Route path="/reviews" element={<Reviews />} />
+      <Route path="/lab" element={<Lab />} >
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
       </Route>
