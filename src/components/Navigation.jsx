@@ -1,25 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-// import dmLogo from "./dm-smaller.svg";
 
 function Navigation() {
   return (
     <header className="navigation sticky-header">
       <div className="row w-100 align-items-center">
         <div className="col-7 h1-wrapper d-flex align-items-center">
-          {/* <NavLink
-            className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
-            to="/"
-            onClick={() => {
-              document.getElementById("navbarSupportedContent").classList.remove("show");
-            }}
-          >
-            <img
-              src={dmLogo}
-              className="mh-100 h-100 mr-3 mt-0 ml-3"
-              alt="dave m logo"
-            />
-          </NavLink> */}
           <div className="periodic-card col-auto mx-3">
             <div className="top-row">
               <span className="label">UX</span>
@@ -32,7 +18,6 @@ function Navigation() {
               <span className="footer-text">100% DIGITAL</span>
             </div>
           </div>
-
           <h1 className="header-title">David Melkonian</h1>
         </div>
 
@@ -115,7 +100,7 @@ function Navigation() {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a
+                  {/* <a
                     href="https://www.linkedin.com/in/davemelk/details/recommendations/?detailScreenTabIndex=0"
                     className="nav-link"
                     target="_blank"
@@ -127,7 +112,20 @@ function Navigation() {
                     }}
                   >
                     Reviews
-                  </a>
+                  </a> */}
+                  <NavLink
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
+                    to="/reviews"
+                    onClick={() => {
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show");
+                    }}
+                  >
+                    Reviews
+                  </NavLink>
                 </li>
               </ul>
             </div>

@@ -6,6 +6,7 @@ export { default as Rxapp } from "./Rxapp";
 export { default as Patterns } from "./Patterns";
 export { default as Skills } from "./Skills";
 export { default as Contact } from "./Contact";
+export { default as Reviews } from "./Reviews";
 export { default as Resumes } from "./Resumes";
 export { default as Blog } from "./blog/Blog";
 export { default as Posts } from "./blog/Posts";
